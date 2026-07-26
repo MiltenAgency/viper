@@ -1,0 +1,214 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+/* Palette lifted from the export's `--token-*` custom properties on <body>. */
+@theme {
+  --color-ink: #090909;
+  --color-ink-80: rgba(9, 9, 9, 0.8);
+  --color-ink-60: rgba(9, 9, 9, 0.6);
+  --color-ink-40: rgba(9, 9, 9, 0.4);
+  --color-graphite: #29292b;
+  --color-charcoal: #1e1e1e;
+  --color-stone: #63615e;
+  --color-ash: #7f7f80;
+  --color-accent: #ff462e;
+  --color-accent-10: rgba(255, 70, 46, 0.1);
+  --color-accent-20: rgba(255, 70, 46, 0.2);
+  --color-paper: #f9f9f9;
+  --color-paper-60: rgba(249, 249, 249, 0.6);
+  --color-paper-80: rgba(249, 249, 249, 0.8);
+  --color-sand: #f5f4f3;
+  --color-mist: #eaeaea;
+  --color-fog: #f7f7f7;
+  --color-blush: #f9d3cd;
+  --color-shell: #f7e3df;
+
+  --font-display: "Inter Display", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: #fff;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  overflow-x: hidden;
+}
+
+/* Framer renders every text node with `font-feature-settings` off; the roll-up
+   hover states rely on the two stacked copies being exactly the same width. */
+::selection {
+  background: var(--color-accent);
+  color: var(--color-paper);
+}
+
+/* ---- Type presets, one per style the export actually uses ---- */
+
+@layer components {
+
+  .t-hero {
+    /* The export drops the wordmark to 82/70 below 810px; at 260px it is 804px
+       wide and drags the whole page sideways on a phone. */
+    font-size: 82px;
+    line-height: 70px;
+    letter-spacing: -2.8px;
+    font-weight: 700;
+  }
+
+  @media (min-width: 810px) {
+    .t-hero {
+      font-size: 260px;
+      line-height: 200px;
+      letter-spacing: -9px;
+    }
+  }
+  .t-display {
+    font-size: 128px;
+    line-height: 104px;
+    letter-spacing: -4px;
+    font-weight: 600;
+  }
+  /* Both section-heading sizes collapse to 56/50 below 810px in the export.
+     Left at their desktop sizes the split-letter headings do not wrap and push
+     the page 89px wider than a 390px viewport. */
+  .t-h2,
+  .t-h4 {
+    font-size: 56px;
+    line-height: 50px;
+    letter-spacing: -1.6px;
+    font-weight: 600;
+  }
+
+  @media (min-width: 810px) {
+    .t-h2 {
+      font-size: 110px;
+      line-height: 90px;
+      letter-spacing: -3px;
+    }
+    .t-h4 {
+      font-size: 90px;
+      line-height: 74px;
+      letter-spacing: -3px;
+    }
+  }
+  .t-h3 {
+    /* The export steps this down to 30/36 below 810px — at 48px the contact
+       email alone is wider than a 390px viewport and forces the page to scroll
+       sideways. `break-word` matches the export too. */
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: -0.75px;
+    font-weight: 600;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  @media (min-width: 810px) {
+    .t-h3 {
+      font-size: 48px;
+      line-height: 52px;
+      letter-spacing: -1.2px;
+    }
+  }
+  .t-h6 {
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -1px;
+    font-weight: 700;
+  }
+  .t-h6-semi {
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: -1px;
+    font-weight: 600;
+  }
+  .t-lead {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    font-weight: 500;
+  }
+  .t-body {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    font-weight: 500;
+  }
+  .t-h5 {
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.1px;
+    font-weight: 600;
+  }
+  .t-card-title {
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    font-weight: 600;
+  }
+  .t-btn {
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    font-weight: 500;
+  }
+  .t-note {
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.1px;
+    font-weight: 600;
+  }
+  .t-meta {
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: -0.1px;
+    font-weight: 500;
+  }
+  .t-tag {
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+    font-weight: 600;
+  }
+  .t-fine {
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: -0.1px;
+    font-weight: 500;
+  }
+  .t-badge {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    font-weight: 600;
+  }
+  .t-pill {
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: -0.1px;
+    font-weight: 700;
+  }
+  .t-caps {
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.1px;
+    font-weight: 700;
+  }
+}
+
+/* The export leaves every heading at its default `text-wrap`; nothing on this
+   template uses `balance`, so line breaks come from the measure alone. */
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
