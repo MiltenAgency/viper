@@ -1,0 +1,222 @@
+/* Lifted from the export's <style data-framer-font-css> block, trimmed to the
+   latin and latin-ext subsets. Files already live in /public/assets/fonts. */
+
+/* Inter 400 italic — latin */
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/9b3d822d437ff19a.woff2);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter 400 italic — latin-ext */
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/90f4958b2feaed7a.woff2);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Inter 400 normal — latin */
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/d2835f64bac061e9.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter 400 normal — latin */
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/776ea07d8af4dfc7.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter 400 normal — latin-ext */
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/418c934c0013e5e2.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Inter 700 italic — latin */
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/cc75eb3249435347.woff2);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter 700 italic — latin-ext */
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/78f4b8011b8394d0.woff2);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Inter 700 normal — latin */
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/098848e1dbc93e4d.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter 700 normal — latin-ext */
+@font-face {
+  font-family: "Inter";
+  src: url(/assets/fonts/b6c8387871127c1e.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Inter Display 500 italic — latin */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/e1d5e0593513ef90.woff2);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 500;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter Display 500 italic — latin-ext */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/1f0e3d7e8f55eced.woff2);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 500;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Inter Display 500 normal — latin */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/7d8cd10b6d5b94fb.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2070, U+2074-207E, U+2080-208E, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter Display 500 normal — latin */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/b921d52f8f109f34.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter Display 500 normal — latin-ext */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/e62aee2409f4ac49.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Inter Display 600 italic — latin */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/e180b4a62c1eb3e3.woff2);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 600;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter Display 600 italic — latin-ext */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/e8ee0d5b0be578ff.woff2);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 600;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Inter Display 600 normal — latin */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/e6bc8a207c8082ce.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter Display 600 normal — latin-ext */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/e083460e5375be60.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Inter Display 700 italic — latin */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/9e5980512c00d1b8.woff2);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter Display 700 italic — latin-ext */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/f34cdbe1fbb2a089.woff2);
+  font-display: swap;
+  font-style: italic;
+  font-weight: 700;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* Inter Display 700 normal — latin */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/d0f1b8ccd9781cbc.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Inter Display 700 normal — latin-ext */
+@font-face {
+  font-family: "Inter Display";
+  src: url(/assets/fonts/8f96f9a944831e0b.woff2);
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
