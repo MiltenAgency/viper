@@ -6,7 +6,7 @@ import Faq from "@/components/Faq";
 import { blogPage, posts } from "@/lib/content/blog";
 
 export const metadata: Metadata = {
-  title: "Blog - Viper - Portfolio",
+  title: "Horological Essays - KRONOS Horology",
   description: blogPage.blurb,
 };
 

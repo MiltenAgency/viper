@@ -13,7 +13,7 @@ import { aboutPage } from "@/lib/content/about";
 import { contactBlock } from "@/lib/content/shared";
 
 export const metadata: Metadata = {
-  title: "About - Viper - Portfolio",
+  title: "Atelier - KRONOS Horology",
   description: aboutPage.hero.blurb,
 };
 

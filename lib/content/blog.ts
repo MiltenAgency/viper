@@ -1,4 +1,4 @@
-/** The three articles. Copy and image order are verbatim from the export. */
+/** The three horological articles of KRONOS Horology. Slugs and image structure are strictly preserved. */
 
 export type PostBlock = { label: string; lead: string; body: string };
 
@@ -22,107 +22,107 @@ export type Post = {
 export const posts: Post[] = [
   {
     slug: "polestar-new-ev",
-    title: "Polestar New EV",
-    date: "Mar 12, 3025",
-    category: "Launch Event",
-    tags: ["Launch Event", "Hub", "Recent"],
-    cover: { src: "/assets/img/f6615db6dc0ad58e.webp", alt: "Woman In White Background" },
+    title: "The Physics of 5Hz Silicon Escapements",
+    date: "Oct 18, 2025",
+    category: "Chronometry",
+    tags: ["Chronometry", "Silicon", "Escapements"],
+    cover: { src: "/assets/img/f6615db6dc0ad58e.webp", alt: "Silicon Balance Spring" },
     heroBlurb:
-      "Polestar EV explores the future of electric mobility, blending cutting-edge design with innovation. Dive into the performance insights shaping the next area.",
+      "Exploring the micro-mechanical dynamics of 36,000 VpH high-frequency regulating organs etched from monocrystalline silicon oxide.",
     blocks: [
       {
         label: "Innovation",
-        lead: "As the world shifts towards a more sustainable future, Polestar EV serves as a beacon of progress in the automotive industry.®",
-        body: "Polestar EV represents a bold step forward in the evolution of electric vehicles, pushing the boundaries of performance, design, and sustainability. As the automotive industry transitions to a cleaner future, Polestar leads the way with groundbreaking technology and a commitment to environmental responsibility. With a focus on aerodynamics, efficiency, and cutting-edge materials, every aspect of Polestar EV is designed to enhance both driving experience and sustainability. Beyond performance, Polestar EV embodies the perfect blend of luxury and functionality. The interior is crafted with premium, eco-friendly materials that offer a sophisticated yet sustainable driving environment. Advanced driver assistance systems, intuitive infotainment, and seamless connectivity ensure that every journey is as enjoyable as it is responsible. The vehicle’s smart energy management system optimizes battery life and charging efficiency, making it a practical choice for both urban commuting and long-distance travel.",
+        lead: "By operating at 5Hz (36,000 vibrations per hour), modern escapements achieve unprecedented stability against shocks and gravity.®",
+        body: "Monocrystalline silicon represents one of the most profound leaps forward in the history of horological materials. Unlike traditional Nivarox and Elinvar alloys, silicon is entirely non-ferromagnetic, impervious to thermal fluctuations within standard atmospheric bands, and naturally friction-free when micro-machined via Deep Reactive Ion Etching (DRIE). When driven at 5Hz, each oscillation slices time into tenth-of-a-second increments, recovering from external physical shocks in half the time of standard 2.5Hz or 3Hz balances.",
       },
       {
-        label: "Revolution",
-        lead: "Polestar EV isn’t just shaping the future—it is the future. With its bold approach to electric mobility, it challenges traditional automakers to rethink what’s possible.®",
-        body: "Polestar EV isn’t just another electric car; it’s a revolution in mobility. Designed with a vision to create a cleaner, smarter, and more efficient future, this EV embodies cutting-edge technology, breathtaking design, and a commitment to sustainability. With every detail meticulously crafted, Polestar EV sets a new benchmark for the automotive industry, proving that electric vehicles can be both thrilling and responsible. From the sleek, aerodynamic silhouette to the meticulously designed interior, Polestar EV is engineered for excellence. The high-performance electric drivetrain delivers instant acceleration, seamless handling, and an unparalleled driving experience. But it's not just about speed—Polestar EV is built to be as efficient as it is powerful, integrating innovative battery technology to extend range and reduce charging time. Every component is thoughtfully designed to optimize energy usage, making this vehicle a true game-changer.",
+        label: "Aerodynamics",
+        lead: "Minimizing air resistance on the balance wheel rim allows longer continuous amplitude across the power reserve.®",
+        body: "At 36,000 vibrations per hour, aerodynamic turbulence along the balance rim creates measurable kinetic energy loss. KRONOS engineers sculpted a recessed aerodynamic profile for the variable-inertia titanium balance wheel, positioning the regulation masselottes internally within hollowed spokes. This reduces parasitic drag by 28%, enabling a constant 300-degree amplitude across the entire 72-hour power curve.",
       },
       {
-        label: "Evolution",
-        lead: "Polestar EV is not just a car; it’s a glimpse into the future of mobility. With innovation driving every decision, it redefines what it means to drive electric.",
-        body: "Polestar EV marks a pivotal moment in the evolution of electric vehicles, offering a perfect harmony between high performance, sustainability, and intelligent design. As the demand for eco-friendly transportation grows, Polestar is at the forefront of this transformation, proving that electric cars can be both exhilarating and environmentally responsible. With a design that merges aesthetics with functionality, Polestar EV sets new standards for the modern driver. The technology behind Polestar EV is nothing short of groundbreaking. With an advanced battery system, regenerative braking, and an aerodynamic chassis, it optimizes every aspect of efficiency and performance. Inside, the vehicle offers a luxurious, driver-centric experience, featuring high-tech displays, intuitive controls, and smart connectivity that seamlessly integrates with daily life. Sustainability is at the core, with ethically sourced materials and a commitment to reducing carbon footprints.",
+        label: "Isochronism",
+        lead: "Silicon hairsprings with integrated terminal curves eliminate the need for pins and regulator arms.",
+        body: "Traditional regulator index pins restrict the breathing of the hairspring and introduce friction points. By etching an optimized terminal curve directly into the monocrystalline silicon structure, the hairspring breathes with perfect concentricity in all six physical orientations. Combined with our rigid free-sprung stud holder, the calibre maintains certified chronometer deviations within -1/+2 seconds per day.",
       },
     ],
     images: {
-      wide1: { src: "/assets/img/8b049d28ecf0cdd1.webp", alt: "Women In Garden" },
+      wide1: { src: "/assets/img/8b049d28ecf0cdd1.webp", alt: "Silicon Escapement Inspection" },
       pair: [
-        { src: "/assets/img/b0b2ac83cf4d96c9.webp", alt: "Woman Side Pose" },
-        { src: "/assets/img/09cf1c42bfadc79b.webp", alt: "Woman Front Pose" },
+        { src: "/assets/img/b0b2ac83cf4d96c9.webp", alt: "Optical Measurement Rig" },
+        { src: "/assets/img/09cf1c42bfadc79b.webp", alt: "Balance Wheel Oscillation" },
       ],
-      wide2: { src: "/assets/img/333d33ec6d347e4f.webp", alt: "Woman Front Zoom Pose" },
+      wide2: { src: "/assets/img/333d33ec6d347e4f.webp", alt: "Regulated Escapement Assembly" },
     },
   },
   {
     slug: "audemars-piguet",
-    title: "Audemars Piguet",
-    date: "Apr 1, 2024",
-    category: "Classic",
-    tags: ["Classic", "Vintage", "Retro"],
-    cover: { src: "/assets/img/296095649a24a9a4.webp", alt: "Watch Back Side" },
+    title: "Machining Curved Synthetic Sapphire Cases",
+    date: "Aug 12, 2025",
+    category: "Casecraft",
+    tags: ["Sapphire", "Engineering", "Materials"],
+    cover: { src: "/assets/img/296095649a24a9a4.webp", alt: "Curved Sapphire Crystal Case" },
     heroBlurb:
-      "Audemars Piguet explores the legacy of Swiss watchmaking, blending timeless craftsmanship with modern innovation.",
+      "How diamond-tipped ultrasonic milling transforms ultra-hard synthetic corundum boules into seamless, optically flawless watch cases.",
     blocks: [
       {
-        label: "Legacy",
-        lead: "As the brand continues to innovate while respecting its roots, Audemars remains a symbol of timeless elegance proving that true artistry never goes out of style.®",
-        body: "Audemars Piguet stands as a testament to the enduring legacy of Swiss watchmaking, a brand that has seamlessly merged tradition with innovation for nearly 150 years. From the Vallée de Joux, the birthplace of some of the finest timepieces in history, Audemars Piguet has crafted horological masterpieces that transcend mere functionality. Each watch is a blend of meticulous craftsmanship, avant-garde design, and mechanical excellence, a reflection of the brand’s commitment to pushing the boundaries of watchmaking. What sets Audemars Piguet apart is its dedication to precision and artistry. Unlike mass-produced luxury watches, each AP timepiece is meticulously hand-assembled by master watchmakers who uphold the traditions passed down through generations. The intricate movements, often visible through sapphire crystal casebacks, showcase the complexity and beauty of mechanical engineering at its finest. Whether it's the groundbreaking Royal Oak or the exquisite Millenary collection, every watch tells a story of heritage and ingenuity.",
+        label: "Hardness",
+        lead: "Possessing a Mohs hardness of 9, synthetic sapphire crystal resists every abrasive element except diamond itself.®",
+        body: "Synthetic corundum is grown through the Verneuil or Kyropoulos method by melting pure aluminum oxide at 2,050 degrees Celsius. The resulting crystal cylindrical boules are completely transparent, inert, and nearly impervious to scratching. However, this extreme hardness makes traditional cutting methods completely obsolete: shaping a complex 3D ergonomic case profile demands diamond-impregnated ultrasonic tooling and weeks of continuous milling.",
       },
       {
-        label: "Innovation",
-        lead: "At its core, Audemars Piguet is about more than just telling time—it’s about telling a story of creativity, engineering, and bold vision.®",
-        body: "Audemars Piguet has long been at the forefront of horological innovation, redefining what it means to craft a luxury timepiece. With a legacy of pushing boundaries, the brand has introduced some of the most groundbreaking designs and complications in watchmaking history. From the revolutionary Royal Oak, the first luxury sports watch in stainless steel, to ultra-complicated movements that challenge the limits of mechanical engineering, AP has consistently led the industry with its pioneering spirit. What makes Audemars Piguet unique is its relentless pursuit of excellence. Unlike many watch brands that adhere strictly to tradition, AP dares to experiment, blending modern aesthetics with classic craftsmanship. Its high-complication models, featuring tourbillons, minute repeaters, and perpetual calendars, showcase the brand’s technical prowess, while contemporary materials like ceramic and forged carbon push the boundaries of design. Each timepiece is a fusion of art and science, demonstrating the perfect balance between innovation and heritage.",
+        label: "Ultrasonics",
+        lead: "Vibrating at 20,000 Hz, ultrasonic diamond tools micro-fracture sapphire without inducing internal stress cracks.®",
+        body: "Direct mechanical shear stress shatters brittle corundum crystals. To carve the complex curvature of the KRONOS case and its integrated lug geometries, our CNC machines employ ultrasonic cavitation. High-frequency acoustic vibrations combined with an aqueous diamond slurry erode the material microscopic layer by microscopic layer, taking over 180 machine hours per case mid-section.",
       },
       {
-        label: "Exclusivity",
-        lead: "Each timepiece carries with it a legacy of innovation, precision, and exclusivity, making it more than just a watch but a work of art that transcends time.®",
-        body: "Audemars Piguet is synonymous with exclusivity, a brand that has remained independent and family-owned since its inception in 1875. Unlike mass-produced luxury watches, AP timepieces are meticulously handcrafted in limited quantities, making each one a rare and coveted masterpiece. The brand’s exclusivity isn’t just about scarcity—it’s about the level of craftsmanship, precision, and artistry that goes into every single watch, ensuring that each owner possesses something truly extraordinary. The appeal of an Audemars Piguet watch goes beyond its stunning design or intricate movement; it represents membership in an elite circle of watch connoisseurs. From world-renowned athletes and celebrities to collectors with a deep appreciation for horology, those who wear AP understand the value of owning something rare. The Royal Oak, perhaps the most iconic of all AP models, revolutionized the luxury watch industry and remains a symbol of status, craftsmanship, and sophistication.",
+        label: "Polishing",
+        lead: "Over 200 hours of manual diamond paste polishing are required to restore optical clarity from milky frosted surfaces.®",
+        body: "Directly after CNC shaping, the sapphire case appears milky white and translucent due to micro-fractured surface roughness. Master polishers slowly buff every external facet, inner cavity, and screw bore with progressively finer diamond pastes ranging from 30 microns down to 0.25 microns. The result is pure crystal transparency that allows ambient light to illuminate the openworked movement within.",
       },
     ],
     images: {
-      wide1: { src: "/assets/img/6ac324c6a70dced9.webp", alt: "Bottle On The Rock" },
+      wide1: { src: "/assets/img/6ac324c6a70dced9.webp", alt: "Corundum Boule Inspection" },
       pair: [
-        { src: "/assets/img/c327b6a7eeb961b5.webp", alt: "Staircase" },
-        { src: "/assets/img/973b47bad456a188.webp", alt: "Women On The Stage" },
+        { src: "/assets/img/c327b6a7eeb961b5.webp", alt: "5-Axis Ultrasonic CNC Chamber" },
+        { src: "/assets/img/973b47bad456a188.webp", alt: "Diamond Polishing Station" },
       ],
-      wide2: { src: "/assets/img/78b70384419bd42a.webp", alt: "Glass And Bottle" },
+      wide2: { src: "/assets/img/78b70384419bd42a.webp", alt: "Finished Sapphire Case" },
     },
   },
   {
     slug: "global-nikon-meetup",
-    title: "Global Nikon Meetup",
-    date: "Sep 14, 2024",
-    category: "Photography",
-    tags: ["Photography", "Nikon", "Camera"],
-    cover: { src: "/assets/img/cdafa7eb4ef9633f.webp", alt: "Man Sitting" },
+    title: "Architectural Hand-Finishing & Anglage",
+    date: "Jun 04, 2025",
+    category: "Finishing",
+    tags: ["Metiers d'Art", "Anglage", "Atelier"],
+    cover: { src: "/assets/img/cdafa7eb4ef9633f.webp", alt: "Master Watchmaker Hand Finisher" },
     heroBlurb:
-      "Global Nikon Meetup brings photography enthusiasts together to connect, share insights, and celebrate the art of capturing moments.",
+      "A deep dive into the ancestral art of inward angle chamfering, black mirror polishing, and traits-tirés on titanium bridges.",
     blocks: [
       {
-        label: "Community",
-        lead: "Beyond the technical aspects, the Global Nikon Meetup is about building lasting relationships and inspiring each other. Photography is not just about the equipment.®",
-        body: "The Global Nikon Meetup is more than just an event; it’s a thriving community where photographers from around the world come together to share their passion, knowledge, and experiences. Whether you're a seasoned professional or an aspiring enthusiast, this meetup provides a unique opportunity to connect with like-minded individuals who share a deep appreciation for the art of photography. From casual discussions about camera settings to in-depth conversations about composition and lighting, this gathering is designed to foster creativity and collaboration. One of the most exciting aspects of the Global Nikon Meetup is the hands-on experience it offers. Attendees get exclusive access to workshops, live demonstrations, and interactive sessions led by Nikon experts and renowned photographers. Whether you're learning about the latest advancements in Nikon technology or refining your shooting techniques, the event provides an immersive environment where knowledge flows freely. Participants can test out the newest Nikon gear, exchange tips on post-processing, and even take part in photo walks that explore stunning locations.",
+        label: "Anglage",
+        lead: "No computer or CNC tool in the world can replicate the razor-sharp definition of a hand-carved inward angle.®",
+        body: "Anglage, or bevelling, involves paring down the sharp edges of movement bridges to a smooth 45-degree angle. While modern machines can produce rounded radii, a crisp, sharp interior corner where two bevels meet can only be executed by an artisan wielding a manual steel file and boxwood smoothing stick. A single misstep can ruin a titanium bridge that required forty hours of prior preparation.",
       },
       {
-        label: "Inspiration",
-        lead: "But inspiration doesn’t just come from the speakers and sessions—it comes from the connections you make with fellow photographers.®",
-        body: "The Global Nikon Meetup is a celebration of creativity, where photographers from across the world gather to inspire and be inspired. Whether you shoot landscapes, portraits, wildlife, or street photography, this event is designed to fuel your artistic vision and take your skills to new heights. Through engaging discussions, hands-on workshops, and live demonstrations, attendees gain invaluable insights into the techniques and philosophies of some of the best photographers in the industry. At the core of the Global Nikon Meetup is the belief that photography is more than just a technical skill—it’s a way to tell stories, capture emotions, and see the world from unique perspectives. Nikon experts and seasoned professionals share their experiences, offering tips on everything from mastering manual settings to composing visually striking images. The event also features portfolio reviews, where attendees can receive constructive feedback and refine their work with the guidance of industry veterans.",
+        label: "Black Polish",
+        lead: "Known as poli miroir or black polish, this technique reflects light so uniformly that the metal appears pitch black from certain angles.®",
+        body: "Black polishing is reserved for steel balance bridges, column wheels, and screw heads. The artisan rubs the component in figure-eight patterns across a zinc plate treated with fine diamond micron paste. The resulting flatness is measured in fractions of a light wavelength. Viewed straight on, the surface reflects all ambient light like a spotless mirror; tilted slightly, it becomes an infinite void.",
       },
       {
-        label: "Experience",
-        lead: "The Global Nikon Meetup ensures that every attendee walks away with an enriched photography experience that will shape their creative journey for years to come.®",
-        body: "The Global Nikon Meetup isn’t just an event—it’s an unforgettable experience that brings photographers together to learn, explore, and grow. Whether you’re a hobbyist, an aspiring professional, or a seasoned expert, this meetup provides an exciting platform to engage with fellow photography enthusiasts and discover new techniques. With hands-on workshops, live demonstrations, and interactive discussions, attendees gain first-hand experience with cutting-edge Nikon gear while learning from some of the best minds in photography. One of the standout features of the Global Nikon Meetup is the opportunity to immerse yourself in real-world shooting scenarios. Whether it’s a guided photo walk through a scenic landscape, a portrait lighting session with professional models, or an exclusive behind-the-scenes look at wildlife photography, this event offers practical experiences that go beyond theory. Nikon experts are on hand to share their expertise, helping attendees refine their camera skills and experiment with creative approaches to photography.",
+        label: "Dedication",
+        lead: "In an era of mass industrialization, hand finishing preserves the soul and individual handwriting of the watchmaker.",
+        body: "Every KRONOS timepiece takes between 150 and 300 hours of manual decorative work before assembly even begins. Under a 10x microscope or loupe, the collector discovers the subtle nuances of the finisher's hand: the rhythm of the satin strokes, the brilliance of the chamfers, and the warm glow of flame-blued screws. It is this human touch that transforms mechanical kinematics into timeless works of art.",
       },
     ],
     images: {
-      wide1: { src: "/assets/img/d9c94ac854f6da15.webp", alt: "Woman Leaning" },
+      wide1: { src: "/assets/img/d9c94ac854f6da15.webp", alt: "Hand Beveling Bench" },
       pair: [
-        { src: "/assets/img/3a510b93cc7aa10e.webp", alt: "Woman In The Grass" },
-        { src: "/assets/img/daed11ee27c6a319.webp", alt: "Woman In The Beach" },
+        { src: "/assets/img/3a510b93cc7aa10e.webp", alt: "Boxwood Polishing Stick" },
+        { src: "/assets/img/daed11ee27c6a319.webp", alt: "Black Polished Column Wheel" },
       ],
-      wide2: { src: "/assets/img/4089502a0421ef20.webp", alt: "Container" },
+      wide2: { src: "/assets/img/4089502a0421ef20.webp", alt: "Finished Movement Bridge" },
     },
   },
 ];
@@ -138,10 +138,10 @@ export function otherPosts(slug: string) {
 
 export const blogPage = {
   eyebrow: "©2025",
-  title: "Articles",
+  title: "Horological Essays",
   blurb:
-    "Whether you're looking for inspiration, tutorials, or fresh perspectives, there’s something here for everyone.",
-  heroImage: { src: "/assets/img/a92c67265dda481b.webp", alt: "Car Side View" },
-  section: { label: "Latest Updates", index: "(CQ® — 01)", year: "©2025" },
-  moreUpdates: { label: "Latest Updates", index: "(GQ® — 02)", year: "©2024" },
+    "Explore our technical treatises, metallurgical studies, and deep dives into the science and philosophy of modern haute horlogerie.",
+  heroImage: { src: "/assets/img/a92c67265dda481b.webp", alt: "Haute Horlogerie Journal" },
+  section: { label: "Technical Papers", index: "(KH® — 01)", year: "©2025" },
+  moreUpdates: { label: "Recent Treatises", index: "(KH® — 02)", year: "©2024" },
 } as const;

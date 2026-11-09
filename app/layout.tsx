@@ -4,13 +4,13 @@ import LenisProvider from "@/components/LenisProvider";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Viper - Portfolio & Agency",
+  title: "KRONOS Horology - Independent Haute Horlogerie Suisse",
   description:
-    "Viper, a creative portfolio framer template, is a perfect fit for personal portfolios, designers, freelancers, agencies, and photographers.",
+    "Independent manufacture of architectural Grade 5 titanium timepieces, flying tourbillon escapements, and sapphire dial chronometers crafted in the Swiss Jura.",
   openGraph: {
-    title: "Viper - Portfolio & Agency",
+    title: "KRONOS Horology - Independent Haute Horlogerie Suisse",
     description:
-      "Viper, a creative portfolio framer template, is a perfect fit for personal portfolios, designers, freelancers, agencies, and photographers.",
+      "Independent manufacture of architectural Grade 5 titanium timepieces, flying tourbillon escapements, and sapphire dial chronometers crafted in the Swiss Jura.",
   },
 };
 

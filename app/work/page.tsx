@@ -6,7 +6,7 @@ import Faq from "@/components/Faq";
 import { projects, workPage } from "@/lib/content/work";
 
 export const metadata: Metadata = {
-  title: "Work - Viper - Portfolio",
+  title: "Calibres & Editions - KRONOS Horology",
   description: workPage.blurb,
 };
 

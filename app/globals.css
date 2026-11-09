@@ -1,27 +1,27 @@
 @import "tailwindcss";
 @import "./fonts.css";
 
-/* Palette lifted from the export's `--token-*` custom properties on <body>. */
+/* Palette lifted from the export's `--token-*` custom properties on <body> - KRONOS Horology */
 @theme {
-  --color-ink: #090909;
-  --color-ink-80: rgba(9, 9, 9, 0.8);
-  --color-ink-60: rgba(9, 9, 9, 0.6);
-  --color-ink-40: rgba(9, 9, 9, 0.4);
-  --color-graphite: #29292b;
-  --color-charcoal: #1e1e1e;
-  --color-stone: #63615e;
-  --color-ash: #7f7f80;
-  --color-accent: #ff462e;
-  --color-accent-10: rgba(255, 70, 46, 0.1);
-  --color-accent-20: rgba(255, 70, 46, 0.2);
-  --color-paper: #f9f9f9;
-  --color-paper-60: rgba(249, 249, 249, 0.6);
-  --color-paper-80: rgba(249, 249, 249, 0.8);
-  --color-sand: #f5f4f3;
-  --color-mist: #eaeaea;
-  --color-fog: #f7f7f7;
-  --color-blush: #f9d3cd;
-  --color-shell: #f7e3df;
+  --color-ink: #070707;
+  --color-ink-80: rgba(7, 7, 7, 0.8);
+  --color-ink-60: rgba(7, 7, 7, 0.6);
+  --color-ink-40: rgba(7, 7, 7, 0.4);
+  --color-graphite: #18181b;
+  --color-charcoal: #121214;
+  --color-stone: #71717a;
+  --color-ash: #a1a1aa;
+  --color-accent: #ff003c;
+  --color-accent-10: rgba(255, 0, 60, 0.1);
+  --color-accent-20: rgba(255, 0, 60, 0.2);
+  --color-paper: #f5f5f5;
+  --color-paper-60: rgba(245, 245, 245, 0.6);
+  --color-paper-80: rgba(245, 245, 245, 0.8);
+  --color-sand: #f4f4f5;
+  --color-mist: #e4e4e7;
+  --color-fog: #f8f8f8;
+  --color-blush: #ffe4e6;
+  --color-shell: #fecdd3;
 
   --font-display: "Inter Display", "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;

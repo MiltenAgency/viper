@@ -16,7 +16,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const project = projectBySlug(params.slug);
   if (!project) return {};
-  return { title: `${project.title} - Viper - Portfolio`, description: project.heroBlurb };
+  return { title: `${project.title} - KRONOS Horology`, description: project.heroBlurb };
 }
 
 export default function ProjectPage({ params }: { params: { slug: string } }) {

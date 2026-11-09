@@ -6,7 +6,7 @@ import Faq from "@/components/Faq";
 import { contactPage } from "@/lib/content/about";
 
 export const metadata: Metadata = {
-  title: "Contact - Viper - Portfolio",
+  title: "Commissions & Private Salon - KRONOS Horology",
   description: contactPage.hero.blurb,
 };
 

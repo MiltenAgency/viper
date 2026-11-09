@@ -1,8 +1,5 @@
 /**
- * Blocks that repeat across routes. The FAQ answers are absent from the static
- * export (the accordion ships collapsed) and were read off the running original
- * with Playwright — including its mixed apostrophes: entry 06 uses a straight
- * `We'll` while entry 08 uses a typographic `don’t`.
+ * Blocks that repeat across routes for KRONOS Horology.
  */
 
 export type FaqItem = { index: string; question: string; answer: string };
@@ -10,61 +7,60 @@ export type FaqItem = { index: string; question: string; answer: string };
 export const faq: FaqItem[] = [
   {
     index: "01",
-    question: "What does a project look like?",
+    question: "What is the annual production volume of KRONOS?",
     answer:
-      "It consists of key deliverables such as wireframes, prototypes, design mockups, and a fully functional final product. Each project is tailored to meet specific goals, ensuring a seamless blend of creativity, usability, and performance.",
+      "To ensure uncompromising quality and hand finishing, KRONOS strictly limits production to 48 pieces per calendar year across all calibre references.",
   },
   {
     index: "02",
-    question: "How is the pricing structure?",
+    question: "How does the allocation and commission process work?",
     answer:
-      "Our pricing structure is designed to be transparent and flexible, catering to different needs and budgets. We offer multiple pricing tiers based on features, customization options, and support levels.",
+      "Prospective patrons submit an inquiry to our private salon. Once an allocation is confirmed, collectors can customize movement finishes, guilloché dials, and case engravings.",
   },
   {
     index: "03",
-    question: "Are all projects fixed scope?",
+    question: "What materials are used for the cases and calibres?",
     answer:
-      "Not necessarily. While some projects have a fixed scope with clear deliverables, others may evolve based on feedback and requirements. We offer flexibility to accommodate changes, ensuring the final outcome aligns with your vision and goals.",
+      "We engineer primarily in aerospace Grade 5 titanium, black diamond-like carbon (DLC), and lab-grown synthetic corundum (sapphire crystal), alongside German silver and platinum micro-rotors.",
   },
   {
     index: "04",
-    question: "What is the ROI?",
+    question: "What chronometer certification does KRONOS achieve?",
     answer:
-      "We focus on maximizing efficiency, ensuring that every dollar spent translates into tangible growth and long-term success for your business.",
+      "Every timepiece undergoes our 1,000-hour manufacture chronometer trial, regulated in six positions across three temperature gradients to within -1/+2 seconds per day.",
   },
   {
     index: "05",
-    question: "How do we measure success?",
+    question: "What is the delivery timeline for a commissioned timepiece?",
     answer:
-      "We track key performance indicators such as user experience, conversions, and client satisfaction while ensuring that every project aligns with the vision and objectives set from the start.",
+      "Due to the 120+ hours of manual hand finishing and bespoke component manufacturing required, lead times typically range from four to eight months from commission agreement.",
   },
   {
     index: "06",
-    question: "What do I need to get started?",
+    question: "What warranty and servicing are provided?",
     answer:
-      "To get started, simply share your project details and goals with us. We'll guide you through the process and provide the tools and support needed to bring your vision to life.",
+      "Each timepiece carries our comprehensive 10-year international manufacture warranty, including complimentary complete calibre overhauls and chronometer recalibration.",
   },
   {
     index: "07",
-    question: "How easy is it to edit for beginners?",
+    question: "Can I visit the manufacture in Le Brassus?",
     answer:
-      "Our platform is designed with beginners in mind, offering an intuitive drag-and-drop interface that makes editing simple and straightforward. No coding skills required—just customize and go!",
+      "Yes. We welcome clients and collectors for private atelier appointments and guided tours of our workshop in the Vallée de Joux by prior arrangement.",
   },
   {
     index: "08",
-    question: "Do I need to know how to code?",
+    question: "Are bespoke complications or unique pieces available?",
     answer:
-      "No, you don’t need to know how to code. Our platform offers intuitive tools and templates that allow you to create and manage your website with ease.",
+      "Yes, our Master Watchmakers consider select commissions for unique piece (pièce unique) executions and bespoke complications depending on annual atelier capacity.",
   },
 ];
 
 export const contactBlock = {
-  badge: "Contact Now",
-  heading: "Contact Me!",
-  blurb: "Let’s create something amazing together! Reach out I’d love to hear about your project and ideas.",
-  points: ["24/7 Full Time Support", "Available Worldwide"],
-  cta: { label: "Contact now", href: "/contact" },
-  fields: { name: "Name*", email: "Email*", message: "Message*" },
-  submit: "Submit Now",
+  badge: "Private Salon",
+  heading: "Commission Allocation",
+  blurb: "Connect with our horological advisors to discuss allocations, bespoke finishes, or schedule a visit to our manufacture in Le Brassus.",
+  points: ["48 Allocations Annually", "10-Year Manufacture Warranty"],
+  cta: { label: "Inquire now", href: "/contact" },
+  fields: { name: "Name*", email: "Email*", message: "Inquiry or Reference*" },
+  submit: "Submit Commission",
 } as const;
-
