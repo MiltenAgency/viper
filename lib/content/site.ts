@@ -34,7 +34,7 @@ export const footer = {
   cta: { label: "Request Membership Allocation", href: "/contact" },
   badge: "Premier Padel Certified",
   image: {
-    src: "/assets/img/padel-hero.jpg",
+    src: "/assets/img/padel-clubhouse.jpg",
     alt: "Atelier Padel Court Pavilion",
   },
   video: "https://framerusercontent.com/assets/ZxMUyWvzXfOYftOqklzEwzhxyQ.mp4",

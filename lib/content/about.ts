@@ -44,7 +44,7 @@ export const aboutPage = {
       { icon: "/assets/img/64fce9881322601f.svg", title: "Premier Padel Innovation Seal", note: "240fps Telemetry Framework", count: "01x" },
       { icon: "/assets/img/51facabf18c7d76b.svg", title: "Monaco Riviera Private Club Award", note: "Sanctuary Club of the Year", count: "05x" },
     ],
-    image: { src: "/assets/img/padel-glasshouse.jpg", alt: "Glass Court Architecture" },
+    image: { src: "/assets/img/padel-rooftop.jpg", alt: "Skyline Court Architecture" },
   },
   practice: {
     section: { label: "Sanctuary Masters", index: "(AP® — 04)", year: "©2025" },
@@ -107,9 +107,9 @@ export const aboutPage = {
         body: "High-resolution ground reaction force sensors analyzing eccentric deceleration, lunge symmetry, and vertical jump power.",
       },
     ],
-    feature: { src: "/assets/img/padel-acoustics.jpg", alt: "Court Architecture Detail" },
+    feature: { src: "/assets/img/padel-biomechanics.jpg", alt: "Court Architecture Detail" },
   },
-  faqImage: { src: "/assets/img/padel-racket.jpg", alt: "Bespoke Carbon Racquet" },
+  faqImage: { src: "/assets/img/padel-monolithic-glass.jpg", alt: "Monolithic Structural Glass" },
   contactSection: { label: "Request A Membership Allocation", index: "(AP® — 07)", year: "©2025" },
 } as const;
 
@@ -119,7 +119,7 @@ export const contactPage = {
     title: "Private Salon",
     blurb:
       "We invite prospective patron members, touring professionals, and private guests to connect with our concierge in Monaco or Geneva.",
-    image: { src: "/assets/img/padel-lounge.jpg", alt: "Atelier Padel Private Lounge" },
+    image: { src: "/assets/img/padel-patron-suite.jpg", alt: "Atelier Padel Private Salon" },
   },
   section: { label: "Sanctuary Allocation", index: "(AP® — 01)", year: "©2025" },
   badge: "Private Sanctuary",

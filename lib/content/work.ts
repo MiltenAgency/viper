@@ -62,11 +62,11 @@ export const projects: Project[] = [
     images: {
       wide1: { src: "/assets/img/padel-hero.jpg", alt: "Glasshouse Stadium Overview" },
       pair: [
-        { src: "/assets/img/padel-acoustics.jpg", alt: "Acoustic Wall Detail" },
-        { src: "/assets/img/padel-racket.jpg", alt: "Match Play Racquet" },
+        { src: "/assets/img/padel-lighting.jpg", alt: "1200 Lux Lighting Array" },
+        { src: "/assets/img/padel-monolithic-glass.jpg", alt: "Monolithic Structural Glass" },
       ],
-      wide2: { src: "/assets/img/padel-lounge.jpg", alt: "Courtside Lounge" },
-      wide3: { src: "/assets/img/padel-vibora.jpg", alt: "Optic Lime Ball Impact" },
+      wide2: { src: "/assets/img/padel-night-arena.jpg", alt: "Exhibition Night Court" },
+      wide3: { src: "/assets/img/padel-tactics.jpg", alt: "Court Geometry Lines" },
     },
   },
   {
@@ -106,13 +106,13 @@ export const projects: Project[] = [
       },
     ],
     images: {
-      wide1: { src: "/assets/img/padel-carbon.jpg", alt: "Carbon Suite Interior" },
+      wide1: { src: "/assets/img/padel-acoustics.jpg", alt: "Carbon Acoustic Panels" },
       pair: [
-        { src: "/assets/img/padel-acoustics.jpg", alt: "Carbon Acoustic Panels" },
         { src: "/assets/img/padel-racket.jpg", alt: "Bespoke Carbon Racquet" },
+        { src: "/assets/img/padel-racquet-craft.jpg", alt: "Racquet Crafting & Tuning" },
       ],
-      wide2: { src: "/assets/img/padel-lounge.jpg", alt: "Private Training Salon" },
-      wide3: { src: "/assets/img/padel-hero.jpg", alt: "Night Perspective" },
+      wide2: { src: "/assets/img/padel-biomechanics.jpg", alt: "Telemetry Analysis Screen" },
+      wide3: { src: "/assets/img/padel-ball-service.jpg", alt: "High-Velocity Impact" },
     },
   },
   {
@@ -152,13 +152,13 @@ export const projects: Project[] = [
       },
     ],
     images: {
-      wide1: { src: "/assets/img/padel-sky.jpg", alt: "Sky Pavilion Rooftop" },
+      wide1: { src: "/assets/img/padel-rooftop.jpg", alt: "Sky Pavilion Rooftop Panorama" },
       pair: [
-        { src: "/assets/img/padel-hero.jpg", alt: "Twilight Panorama" },
-        { src: "/assets/img/padel-glasshouse.jpg", alt: "Court Surface" },
+        { src: "/assets/img/padel-overhead-action.jpg", alt: "Overhead Smash" },
+        { src: "/assets/img/padel-vibora.jpg", alt: "Vibora Ball Flight" },
       ],
-      wide2: { src: "/assets/img/padel-clubhouse.jpg", alt: "Pavilion Terrace" },
-      wide3: { src: "/assets/img/padel-lounge.jpg", alt: "Rooftop Lounge" },
+      wide2: { src: "/assets/img/padel-patron-suite.jpg", alt: "Patron Terrace Lounge" },
+      wide3: { src: "/assets/img/padel-clubhouse.jpg", alt: "Rooftop Club Architecture" },
     },
   },
   {
@@ -198,13 +198,13 @@ export const projects: Project[] = [
       },
     ],
     images: {
-      wide1: { src: "/assets/img/padel-recovery.jpg", alt: "Recovery Suite Plunge" },
+      wide1: { src: "/assets/img/padel-cryo.jpg", alt: "Hydrotherapy Cold Plunge" },
       pair: [
-        { src: "/assets/img/padel-acoustics.jpg", alt: "Infrared Cedar Pod" },
-        { src: "/assets/img/padel-lounge.jpg", alt: "Restoration Suite" },
+        { src: "/assets/img/padel-sauna.jpg", alt: "Infrared Cedar Cabin" },
+        { src: "/assets/img/padel-locker-suite.jpg", alt: "Private Changing Suite" },
       ],
-      wide2: { src: "/assets/img/padel-carbon.jpg", alt: "Biomechanics Screen" },
-      wide3: { src: "/assets/img/padel-racket.jpg", alt: "Athletic Kit" },
+      wide2: { src: "/assets/img/padel-biomechanics.jpg", alt: "Force-Plate Biomechanics Screen" },
+      wide3: { src: "/assets/img/padel-lounge.jpg", alt: "Recovery Lounge Pavilion" },
     },
   },
 ];
@@ -223,7 +223,7 @@ export const workPage = {
   title: "Courts",
   blurb:
     "From 360° panoramic structural glass stadium arenas to private telemetry chambers and rooftop skyline pavilions, explore our architectural sanctuary.",
-  heroImage: { src: "/assets/img/padel-glasshouse.jpg", alt: "Atelier Padel Court Pavilion" },
+  heroImage: { src: "/assets/img/padel-night-arena.jpg", alt: "Atelier Padel Court Pavilion" },
   section: { label: "Architectural Courts", index: "(AP® — 01)", year: "©2025" },
   previewLabel: "View Court",
   moreWorks: { label: "More Arenas", index: "(AP® — 02)", year: "©2024" },

@@ -26,7 +26,7 @@ export default function Photography() {
       <div className="mx-auto mt-[68px] grid max-w-[1360px] grid-cols-1 gap-5 px-4 sm:grid-cols-3 md:px-10">
         <Reveal className="relative aspect-[4/3] overflow-hidden rounded-[14px] bg-sand">
           <Image
-            src="/assets/img/padel-racket.jpg"
+            src="/assets/img/padel-racquet-craft.jpg"
             alt="Carbon Racquet Detail"
             fill
             sizes="(max-width: 768px) 100vw, 440px"
@@ -35,8 +35,8 @@ export default function Photography() {
         </Reveal>
         <Reveal className="relative aspect-[4/3] overflow-hidden rounded-[14px] bg-sand">
           <Image
-            src="/assets/img/padel-acoustics.jpg"
-            alt="Acoustic Glass Architecture"
+            src="/assets/img/padel-ball-service.jpg"
+            alt="Optic Lime Ball Impact"
             fill
             sizes="(max-width: 768px) 100vw, 440px"
             className="object-cover transition-transform duration-700 hover:scale-105"
@@ -44,8 +44,8 @@ export default function Photography() {
         </Reveal>
         <Reveal className="relative aspect-[4/3] overflow-hidden rounded-[14px] bg-sand">
           <Image
-            src="/assets/img/padel-vibora.jpg"
-            alt="High-Velocity Ball Compression"
+            src="/assets/img/padel-overhead-action.jpg"
+            alt="High-Velocity Smash"
             fill
             sizes="(max-width: 768px) 100vw, 440px"
             className="object-cover transition-transform duration-700 hover:scale-105"

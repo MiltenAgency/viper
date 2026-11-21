@@ -26,7 +26,7 @@ export const posts: Post[] = [
     date: "Nov 12, 2025",
     category: "Architecture",
     tags: ["Architecture", "Acoustics", "Structural Glass"],
-    cover: { src: "/assets/img/padel-acoustics.jpg", alt: "Acoustic Glass Pavilion" },
+    cover: { src: "/assets/img/padel-monolithic-glass.jpg", alt: "Acoustic Glass Pavilion" },
     heroBlurb:
       "How 12mm monolithic structural glass and micro-perforated carbon ceiling baffles eliminate reverberation, isolating the gunshot crack of ball impact.",
     blocks: [
@@ -47,12 +47,12 @@ export const posts: Post[] = [
       },
     ],
     images: {
-      wide1: { src: "/assets/img/padel-hero.jpg", alt: "Acoustic Arena Night View" },
+      wide1: { src: "/assets/img/padel-night-arena.jpg", alt: "Acoustic Arena Night View" },
       pair: [
-        { src: "/assets/img/padel-carbon.jpg", alt: "Carbon Acoustic Wall" },
+        { src: "/assets/img/padel-lighting.jpg", alt: "Linear Ceiling Array" },
         { src: "/assets/img/padel-glasshouse.jpg", alt: "Corner Glass Detail" },
       ],
-      wide2: { src: "/assets/img/padel-lounge.jpg", alt: "Pavilion Architecture" },
+      wide2: { src: "/assets/img/padel-hero.jpg", alt: "Pavilion Architecture" },
     },
   },
   {
@@ -61,7 +61,7 @@ export const posts: Post[] = [
     date: "Oct 28, 2025",
     category: "Tactics",
     tags: ["Tactics", "Biomechanics", "Vibora"],
-    cover: { src: "/assets/img/padel-vibora.jpg", alt: "Padel Ball Compression" },
+    cover: { src: "/assets/img/padel-overhead-action.jpg", alt: "High-Velocity Smash" },
     heroBlurb:
       "Deconstructing the rotational mechanics, slice angles, and corner glass rebound trajectories required for professional tour-level overheads.",
     blocks: [
@@ -82,12 +82,12 @@ export const posts: Post[] = [
       },
     ],
     images: {
-      wide1: { src: "/assets/img/padel-racket.jpg", alt: "Custom Carbon Racquet" },
+      wide1: { src: "/assets/img/padel-tactics.jpg", alt: "Court Geometry Lines" },
       pair: [
         { src: "/assets/img/padel-vibora.jpg", alt: "Ball Slice Impact" },
-        { src: "/assets/img/padel-glasshouse.jpg", alt: "Court Geometry Lines" },
+        { src: "/assets/img/padel-ball-service.jpg", alt: "Optic Lime Compression" },
       ],
-      wide2: { src: "/assets/img/padel-carbon.jpg", alt: "Telemetry Video Analysis" },
+      wide2: { src: "/assets/img/padel-racquet-craft.jpg", alt: "Racquet Tuning Bench" },
     },
   },
   {
@@ -96,7 +96,7 @@ export const posts: Post[] = [
     date: "Oct 14, 2025",
     category: "Performance",
     tags: ["Recovery", "Cryotherapy", "Sports Science"],
-    cover: { src: "/assets/img/padel-recovery.jpg", alt: "Cold Plunge Recovery Suite" },
+    cover: { src: "/assets/img/padel-cryo.jpg", alt: "Cold Plunge Recovery Suite" },
     heroBlurb:
       "Optimizing rapid physiological return after three-set matches through cold-water immersion, active compression, and cellular infrared resonance.",
     blocks: [
@@ -119,10 +119,10 @@ export const posts: Post[] = [
     images: {
       wide1: { src: "/assets/img/padel-recovery.jpg", alt: "Cold Plunge Suite" },
       pair: [
-        { src: "/assets/img/padel-lounge.jpg", alt: "Recovery Lounge" },
-        { src: "/assets/img/padel-acoustics.jpg", alt: "Infrared Suite" },
+        { src: "/assets/img/padel-sauna.jpg", alt: "Infrared Cedar Cabin" },
+        { src: "/assets/img/padel-locker-suite.jpg", alt: "Private Changing Suite" },
       ],
-      wide2: { src: "/assets/img/padel-hero.jpg", alt: "Night Sanctuary" },
+      wide2: { src: "/assets/img/padel-lounge.jpg", alt: "Recovery Lounge Pavilion" },
     },
   },
 ];
@@ -141,7 +141,7 @@ export const blogPage = {
   title: "Padel Journal",
   blurb:
     "Explore our technical treatises, court architecture studies, and deep dives into the biomechanics and tactical geometry of modern padel.",
-  heroImage: { src: "/assets/img/padel-acoustics.jpg", alt: "Atelier Padel Journal" },
+  heroImage: { src: "/assets/img/padel-tactics.jpg", alt: "Atelier Padel Journal" },
   section: { label: "Technical Papers", index: "(AP® — 01)", year: "©2025" },
   moreUpdates: { label: "Recent Dispatches", index: "(AP® — 02)", year: "©2024" },
 } as const;

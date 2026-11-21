@@ -31,7 +31,7 @@ export const intro = {
   images: [
     { src: "/assets/img/padel-racket.jpg", alt: "Bespoke Carbon Racquet" },
     { src: "/assets/img/padel-acoustics.jpg", alt: "Acoustic Glass Wall" },
-    { src: "/assets/img/padel-vibora.jpg", alt: "High-Velocity Impact" },
+    { src: "/assets/img/padel-ball-service.jpg", alt: "Optic Lime Court Compression" },
   ],
 } as const;
 
@@ -81,7 +81,7 @@ export const approach = {
     { label: "Surface Grip", value: "70%" },
     { label: "Ball Bite", value: "100%" },
   ],
-  image: { src: "/assets/img/padel-glasshouse.jpg", alt: "Centre Court Glasshouse" },
+  image: { src: "/assets/img/padel-tactics.jpg", alt: "Court Geometry & Tactical Layout" },
 } as const;
 
 export const featured = {
@@ -132,43 +132,49 @@ export const services = {
       title: "Custom Racquet Vault",
       meta: "Equipment Atelier",
       dots: 2,
-      image: { src: "/assets/img/padel-racket.jpg", alt: "Carbon Racquet" },
+      image: { src: "/assets/img/padel-racquet-craft.jpg", alt: "Racquet Crafting & Stringing" },
     },
     {
       title: "Telemetry Biomechanics",
       meta: "Performance Lab",
       dots: 3,
-      image: { src: "/assets/img/padel-carbon.jpg", alt: "The Carbon Suite" },
+      image: { src: "/assets/img/padel-biomechanics.jpg", alt: "Biomechanics Telemetry Lab" },
     },
     {
       title: "Cold Plunge Recovery",
       meta: "Sports Wellness",
       dots: 4,
-      image: { src: "/assets/img/padel-recovery.jpg", alt: "Cold Plunge Suite" },
+      image: { src: "/assets/img/padel-cryo.jpg", alt: "Cold Plunge Suite" },
     },
   ],
-  image: { src: "/assets/img/padel-lounge.jpg", alt: "Club Lounge" },
+  image: { src: "/assets/img/padel-clubhouse.jpg", alt: "Sanctuary Clubhouse Pavilion" },
 } as const;
 
 export const benefits = {
   section: { label: "Sanctuary Standards", index: "(AP® — 06)", year: "©2025" },
   speed: {
-    title: "1,200 Lux glare-free broadcast illumination.",
-    note: "Custom vertical LED arrays eliminating shadow and ball blinding overhead",
-    background: { src: "/assets/img/padel-glasshouse.jpg", alt: "Stadium Court" },
-    wordmark: "/assets/Vector 3.svg",
+    caps: "STANDARDS • 01",
+    title: "1,200 Lux Glare-Free Broadcast Illumination.",
+    note: "Custom vertical indirect LED arrays eliminating shadow and overhead blinding during high smashes.",
+    stat: "1,200",
+    statUnit: "LUX",
+    badge: "Flicker-Free Broadcast Spec",
+    background: { src: "/assets/img/padel-lighting.jpg", alt: "1,200 Lux Stadium Lighting" },
   },
   platform: {
-    caps: "STRUCTURAL GLASS SANCTUARY",
-    title: "Panoramic 360° Glass",
-    image: { src: "/assets/img/padel-sky.jpg", alt: "Rooftop Sky Pavilion" },
+    caps: "STANDARDS • 02",
+    title: "360° Monolithic Structural Glass.",
+    body: "12mm acoustic tempered glass installed without corner vertical posts for mathematically pure ball rebounds across all quadrants.",
+    badge: "Zero Corner Posts • True Rebound",
+    image: { src: "/assets/img/padel-monolithic-glass.jpg", alt: "Monolithic Structural Court Glass" },
   },
   support: {
-    caps: "PRIVATE PATRON CAP",
+    caps: "STANDARDS • 03",
     title: "120",
-    body: "Guaranteed court access, private salon suites, climate-controlled racquet lockers, and Monaco/Geneva reciprocity.",
-    background: { src: "/assets/img/padel-lounge.jpg", alt: "Lounge Glow" },
-    image: { src: "/assets/img/padel-racket.jpg", alt: "Racquet Balance Tool" },
+    label: "Active Patron Allocation Cap",
+    body: "Guaranteed prime-time court access, private salon suites, climate-controlled racquet lockers, and Monaco/Geneva reciprocity.",
+    badge: "Strict Patron Cap",
+    background: { src: "/assets/img/padel-patron-suite.jpg", alt: "VIP Patron Salon Suite" },
   },
 } as const;
 
@@ -229,7 +235,7 @@ export const photography = {
 
 export const framerExpert = {
   section: { label: "Resident Masters", index: "(AP® — 09)", year: "©2025" },
-  image: { src: "/assets/img/padel-racket.jpg", alt: "Master Coach" },
+  image: { src: "/assets/img/padel-coach.jpg", alt: "Master Coach" },
   badge: "Tour Pedigree",
   heading: "Tour-Level Coaching Pedigree.",
   subheading: "Mastering Modern Padel Geometry®",
@@ -283,7 +289,7 @@ export const pricing = {
       dots: 3,
       included: [true, true, true, true, true, true],
       cta: "Request Allocation",
-      image: { src: "/assets/img/padel-lounge.jpg", alt: "Private Salon Suite" },
+      image: { src: "/assets/img/padel-locker-suite.jpg", alt: "Private VIP Salon Suite" },
     },
   ],
 } as const;
@@ -295,7 +301,7 @@ export const insights = {
   blurb:
     "Explore technical treatises on court acoustics, structural glass innovation, and the biomechanics of modern high-velocity padel.",
   cta: { label: "View all dispatches", href: "/blog" },
-  image: { src: "/assets/img/padel-vibora.jpg", alt: "Padel Ball Spin Dynamics" },
+  image: { src: "/assets/img/padel-night-arena.jpg", alt: "Monaco Night Arena" },
 } as const;
 
 export const contactSection = { label: "Request A Membership Allocation", index: "(AP® — 13)", year: "©2025" } as const;
