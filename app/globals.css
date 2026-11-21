@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @import "./fonts.css";
 
-/* Palette lifted from the export's `--token-*` custom properties on <body> - KRONOS Horology */
+/* Palette lifted from the export's `--token-*` custom properties on <body> - ATELIER PADEL PRIVÉ */
 @theme {
   --color-ink: #070707;
   --color-ink-80: rgba(7, 7, 7, 0.8);
@@ -11,17 +11,17 @@
   --color-charcoal: #121214;
   --color-stone: #71717a;
   --color-ash: #a1a1aa;
-  --color-accent: #ff003c;
-  --color-accent-10: rgba(255, 0, 60, 0.1);
-  --color-accent-20: rgba(255, 0, 60, 0.2);
+  --color-accent: #E4EF14;
+  --color-accent-10: rgba(228, 239, 20, 0.1);
+  --color-accent-20: rgba(228, 239, 20, 0.2);
   --color-paper: #f5f5f5;
   --color-paper-60: rgba(245, 245, 245, 0.6);
   --color-paper-80: rgba(245, 245, 245, 0.8);
   --color-sand: #f4f4f5;
   --color-mist: #e4e4e7;
   --color-fog: #f8f8f8;
-  --color-blush: #ffe4e6;
-  --color-shell: #fecdd3;
+  --color-blush: #fbfde8;
+  --color-shell: #f7fbc4;
 
   --font-display: "Inter Display", "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-body: "Inter", ui-sans-serif, system-ui, sans-serif;
@@ -43,7 +43,7 @@ body {
    hover states rely on the two stacked copies being exactly the same width. */
 ::selection {
   background: var(--color-accent);
-  color: var(--color-paper);
+  color: var(--color-ink);
 }
 
 /* ---- Type presets, one per style the export actually uses ---- */
