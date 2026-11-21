@@ -35,7 +35,7 @@ export default function Pricing() {
           >
             <span
               className={clsx(
-                "block h-[26px] w-[26px] rounded-full bg-white transition-transform duration-300",
+                "block h-[26px] w-[26px] rounded-full bg-ink transition-transform duration-300",
                 annual ? "translate-x-[28px]" : "translate-x-0",
               )}
             />

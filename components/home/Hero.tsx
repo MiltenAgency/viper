@@ -51,13 +51,13 @@ export default function Hero() {
       <motion.div
         className="absolute inset-0"
         style={reduced ? undefined : { y: imageY }}
-        initial={reduced ? undefined : { opacity: 0.2, scale: 1.15 }}
+        initial={reduced ? undefined : { opacity: 0.85, scale: 1.05 }}
         animate={reduced ? undefined : { opacity: 1, scale: 1 }}
-        transition={{ type: "spring", bounce: 0, duration: 3, delay: 0.7 }}
+        transition={{ type: "spring", bounce: 0, duration: 1.8, delay: 0.2 }}
       >
         <Image src={hero.image.src} alt={hero.image.alt} fill priority sizes="100vw" className="object-cover" />
       </motion.div>
-      <div className="absolute inset-0 bg-ink/45" />
+      <div className="absolute inset-0 bg-ink/20" />
 
       <Navbar />
 

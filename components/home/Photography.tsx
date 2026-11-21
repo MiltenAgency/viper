@@ -1,16 +1,13 @@
+import Image from "next/image";
 import { photography } from "@/lib/content/home";
 import { Separator, SectionHead } from "@/components/Section";
 import CenterIntro from "@/components/CenterIntro";
+import Reveal from "@/components/motions/Reveal";
 import { Camera } from "@/components/Icons";
 
-/**
- * The export's gallery component in this section was never wired up — it
- * renders Framer's purple "Set Up the Component" placeholder. The space it
- * occupied is kept so the page rhythm matches; nothing is drawn into it.
- */
 export default function Photography() {
   return (
-    <section className="relative z-10 w-full bg-white px-4 pb-[240px] md:px-0">
+    <section className="relative z-10 w-full bg-white px-4 pb-[160px] md:px-0">
       <div className="px-0 md:px-10">
         <Separator />
         <SectionHead className="mt-[34px]" {...photography.section} />
@@ -26,7 +23,35 @@ export default function Photography() {
         />
       </div>
 
-      <div className="mx-auto mt-[58px] h-[200px] w-[400px] max-w-full" aria-hidden />
+      <div className="mx-auto mt-[68px] grid max-w-[1360px] grid-cols-1 gap-5 px-4 sm:grid-cols-3 md:px-10">
+        <Reveal className="relative aspect-[4/3] overflow-hidden rounded-[14px] bg-sand">
+          <Image
+            src="/assets/img/padel-racket.jpg"
+            alt="Carbon Racquet Detail"
+            fill
+            sizes="(max-width: 768px) 100vw, 440px"
+            className="object-cover transition-transform duration-700 hover:scale-105"
+          />
+        </Reveal>
+        <Reveal className="relative aspect-[4/3] overflow-hidden rounded-[14px] bg-sand">
+          <Image
+            src="/assets/img/padel-acoustics.jpg"
+            alt="Acoustic Glass Architecture"
+            fill
+            sizes="(max-width: 768px) 100vw, 440px"
+            className="object-cover transition-transform duration-700 hover:scale-105"
+          />
+        </Reveal>
+        <Reveal className="relative aspect-[4/3] overflow-hidden rounded-[14px] bg-sand">
+          <Image
+            src="/assets/img/padel-vibora.jpg"
+            alt="High-Velocity Ball Compression"
+            fill
+            sizes="(max-width: 768px) 100vw, 440px"
+            className="object-cover transition-transform duration-700 hover:scale-105"
+          />
+        </Reveal>
+      </div>
     </section>
   );
 }

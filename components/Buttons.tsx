@@ -33,7 +33,7 @@ export default function PillButton({ label, href, tone = "light", className }: P
         className,
       )}
     >
-      <span className="relative grid h-11 w-11 place-items-center overflow-hidden rounded-full bg-accent text-paper">
+      <span className="relative grid h-11 w-11 place-items-center overflow-hidden rounded-full bg-accent text-ink">
         <span className="flex transition-transform duration-500 ease-[cubic-bezier(.22,1,.36,1)] group-hover:-translate-x-[22px]">
           <ArrowRight className="shrink-0 translate-x-[2px]" />
           <ArrowRight className="shrink-0 translate-x-[26px]" />

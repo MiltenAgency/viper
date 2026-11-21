@@ -24,7 +24,7 @@ export default function Benefits() {
           <div className="relative z-10 flex flex-1 flex-col items-center px-10 pt-[75px] text-center">
             <p className="t-card-title text-ink">{speed.title}</p>
             <p className="t-fine mt-[5px] text-ink-60">{speed.note}</p>
-            <span className="mt-[195px] grid h-[74px] w-[74px] place-items-center rounded-full bg-accent text-paper">
+            <span className="mt-[195px] grid h-[74px] w-[74px] place-items-center rounded-full bg-accent text-ink">
               <Wand size={30} />
             </span>
             {/* eslint-disable-next-line @next/next/no-img-element */}

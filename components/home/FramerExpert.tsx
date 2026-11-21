@@ -4,7 +4,7 @@ import { Separator, SectionHead } from "@/components/Section";
 import Badge from "@/components/Badge";
 import PillButton from "@/components/Buttons";
 import Reveal from "@/components/motions/Reveal";
-import { FramerMark, Star } from "@/components/Icons";
+import { Star } from "@/components/Icons";
 
 export default function FramerExpert() {
   return (
@@ -24,7 +24,7 @@ export default function FramerExpert() {
         </Reveal>
 
         <div className="flex flex-col items-start">
-          <Badge icon={<FramerMark size={20} />}>{framerExpert.badge}</Badge>
+          <Badge icon={<Star size={20} />}>{framerExpert.badge}</Badge>
           <h2 className="t-h3 mt-[37px] max-w-[503px] text-charcoal">{framerExpert.heading}</h2>
           <h3 className="t-h5 mt-[40px] max-w-[380px] text-graphite">{framerExpert.subheading}</h3>
           <p className="t-body mt-[46px] max-w-[380px] text-ash">{framerExpert.body}</p>

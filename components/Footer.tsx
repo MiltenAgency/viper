@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { footer, footerLinks, site } from "@/lib/content/site";
 import PillButton, { Roll } from "./Buttons";
-import { ArrowRight, FramerMark } from "./Icons";
+import { ArrowRight, Star } from "./Icons";
 import BackToTop from "./BackToTop";
 
 export default function Footer() {
@@ -19,10 +19,10 @@ export default function Footer() {
           />
           <Image
             src={site.logo}
-            alt="Logo"
-            width={156}
-            height={31}
-            className="absolute left-1/2 top-1/2 h-[31px] w-[156px] -translate-x-1/2 -translate-y-1/2 object-contain"
+            alt={site.name}
+            width={96}
+            height={48}
+            className="absolute left-1/2 top-1/2 h-12 w-auto -translate-x-1/2 -translate-y-1/2 object-contain"
           />
         </div>
 
@@ -52,7 +52,7 @@ export default function Footer() {
 
           <div className="lg:pt-[8px] lg:text-right">
             <span className="inline-flex items-center gap-2 rounded-[10px] bg-white px-4 py-[9px]">
-              <FramerMark size={14} className="text-ink" />
+              <Star size={14} className="text-accent" />
               <span className="t-tag text-ink-80">{footer.badge}</span>
             </span>
           </div>

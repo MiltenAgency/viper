@@ -18,7 +18,7 @@ export default function Navbar() {
   return (
     <header className="relative z-30 flex w-full items-center justify-between px-[34px] pt-[34px] md:px-[34px]">
       <Link href="/" className="block shrink-0" aria-label={site.name}>
-        <Image src={site.logo} alt="Logo" width={156} height={31} className="h-[31px] w-[156px] object-contain" priority />
+        <Image src={site.logo} alt={site.name} width={72} height={36} className="h-9 w-auto object-contain" priority />
       </Link>
 
       <nav className="ml-auto hidden items-center gap-[50px] lg:flex" aria-label="Primary">
