@@ -1,4 +1,4 @@
-/** The three horological articles of KRONOS Horology. Slugs and image structure are strictly preserved. */
+/** The three technical padel articles of ATELIER PADEL PRIVÉ. */
 
 export type PostBlock = { label: string; lead: string; body: string };
 
@@ -21,108 +21,108 @@ export type Post = {
 
 export const posts: Post[] = [
   {
-    slug: "polestar-new-ev",
-    title: "The Physics of 5Hz Silicon Escapements",
-    date: "Oct 18, 2025",
-    category: "Chronometry",
-    tags: ["Chronometry", "Silicon", "Escapements"],
-    cover: { src: "/assets/img/f6615db6dc0ad58e.webp", alt: "Silicon Balance Spring" },
+    slug: "architectural-arenas",
+    title: "The Architectural Evolution of High-Acoustic Padel Arenas",
+    date: "Nov 12, 2025",
+    category: "Architecture",
+    tags: ["Architecture", "Acoustics", "Structural Glass"],
+    cover: { src: "/assets/img/padel-acoustics.jpg", alt: "Acoustic Glass Pavilion" },
     heroBlurb:
-      "Exploring the micro-mechanical dynamics of 36,000 VpH high-frequency regulating organs etched from monocrystalline silicon oxide.",
+      "How 12mm monolithic structural glass and micro-perforated carbon ceiling baffles eliminate reverberation, isolating the gunshot crack of ball impact.",
     blocks: [
       {
-        label: "Innovation",
-        lead: "By operating at 5Hz (36,000 vibrations per hour), modern escapements achieve unprecedented stability against shocks and gravity.®",
-        body: "Monocrystalline silicon represents one of the most profound leaps forward in the history of horological materials. Unlike traditional Nivarox and Elinvar alloys, silicon is entirely non-ferromagnetic, impervious to thermal fluctuations within standard atmospheric bands, and naturally friction-free when micro-machined via Deep Reactive Ion Etching (DRIE). When driven at 5Hz, each oscillation slices time into tenth-of-a-second increments, recovering from external physical shocks in half the time of standard 2.5Hz or 3Hz balances.",
+        label: "Acoustic Physics",
+        lead: "Padel produces instantaneous sound pressure levels exceeding 105 decibels on overhead smashes.",
+        body: "In standard steel-frame municipal halls, high-velocity ball strikes reverberate for up to 3.2 seconds. This creates auditory fatigue that disrupts player reaction timing and masks the delicate spin hiss of slice overheads. At Atelier Padel, our acoustic engineers integrated parametric ceiling baffles tuned to absorb frequencies between 250Hz and 2,000Hz, reducing reverberation time to under 0.6 seconds.",
       },
       {
-        label: "Aerodynamics",
-        lead: "Minimizing air resistance on the balance wheel rim allows longer continuous amplitude across the power reserve.®",
-        body: "At 36,000 vibrations per hour, aerodynamic turbulence along the balance rim creates measurable kinetic energy loss. KRONOS engineers sculpted a recessed aerodynamic profile for the variable-inertia titanium balance wheel, positioning the regulation masselottes internally within hollowed spokes. This reduces parasitic drag by 28%, enabling a constant 300-degree amplitude across the entire 72-hour power curve.",
+        label: "Monolithic Glass",
+        lead: "Eliminating corner posts and structural clamps delivers a mathematically uniform ball rebound.",
+        body: "Traditional padel enclosures incorporate steel vertical supports that cause unpredictable ball kicks on corner shots. Our courts feature 12mm thermally toughened monolithic glass panels supported by external subterranean anchor footings and slim carbon tension cables. Ball deflection off the corner glass remains true to geometric incident angles.",
       },
       {
-        label: "Isochronism",
-        lead: "Silicon hairsprings with integrated terminal curves eliminate the need for pins and regulator arms.",
-        body: "Traditional regulator index pins restrict the breathing of the hairspring and introduce friction points. By etching an optimized terminal curve directly into the monocrystalline silicon structure, the hairspring breathes with perfect concentricity in all six physical orientations. Combined with our rigid free-sprung stud holder, the calibre maintains certified chronometer deviations within -1/+2 seconds per day.",
+        label: "Visual Geometry",
+        lead: "Dark arena envelopes paired with 1,200-lux indirect vertical illumination eliminate visual noise.",
+        body: "By enveloping the court in matte charcoal wall surfaces and black silica sand turf, the optic lime padel ball achieves supreme visual contrast. Players read ball spin rotation and seam orientation fractions of a second earlier than on traditional blue-court surfaces.",
       },
     ],
     images: {
-      wide1: { src: "/assets/img/8b049d28ecf0cdd1.webp", alt: "Silicon Escapement Inspection" },
+      wide1: { src: "/assets/img/padel-hero.jpg", alt: "Acoustic Arena Night View" },
       pair: [
-        { src: "/assets/img/b0b2ac83cf4d96c9.webp", alt: "Optical Measurement Rig" },
-        { src: "/assets/img/09cf1c42bfadc79b.webp", alt: "Balance Wheel Oscillation" },
+        { src: "/assets/img/padel-carbon.jpg", alt: "Carbon Acoustic Wall" },
+        { src: "/assets/img/padel-glasshouse.jpg", alt: "Corner Glass Detail" },
       ],
-      wide2: { src: "/assets/img/333d33ec6d347e4f.webp", alt: "Regulated Escapement Assembly" },
+      wide2: { src: "/assets/img/padel-lounge.jpg", alt: "Pavilion Architecture" },
     },
   },
   {
-    slug: "audemars-piguet",
-    title: "Machining Curved Synthetic Sapphire Cases",
-    date: "Aug 12, 2025",
-    category: "Casecraft",
-    tags: ["Sapphire", "Engineering", "Materials"],
-    cover: { src: "/assets/img/296095649a24a9a4.webp", alt: "Curved Sapphire Crystal Case" },
+    slug: "bandeja-and-vibora",
+    title: "Tactical Masterclass: The Pure Geometry of the Bandeja & Vibora",
+    date: "Oct 28, 2025",
+    category: "Tactics",
+    tags: ["Tactics", "Biomechanics", "Vibora"],
+    cover: { src: "/assets/img/padel-vibora.jpg", alt: "Padel Ball Compression" },
     heroBlurb:
-      "How diamond-tipped ultrasonic milling transforms ultra-hard synthetic corundum boules into seamless, optically flawless watch cases.",
+      "Deconstructing the rotational mechanics, slice angles, and corner glass rebound trajectories required for professional tour-level overheads.",
     blocks: [
       {
-        label: "Hardness",
-        lead: "Possessing a Mohs hardness of 9, synthetic sapphire crystal resists every abrasive element except diamond itself.®",
-        body: "Synthetic corundum is grown through the Verneuil or Kyropoulos method by melting pure aluminum oxide at 2,050 degrees Celsius. The resulting crystal cylindrical boules are completely transparent, inert, and nearly impervious to scratching. However, this extreme hardness makes traditional cutting methods completely obsolete: shaping a complex 3D ergonomic case profile demands diamond-impregnated ultrasonic tooling and weeks of continuous milling.",
+        label: "Kinematic Chain",
+        lead: "The modern vibora relies on horizontal forearm pronation and aggressive side-spin rather than downward smash force.",
+        body: "While amateur players frequently confuse the vibora with a tennis slice overhead, the padel vibora is struck beside the body at head height with the racquet face tilted at approximately 45 degrees. The racquet wraps around the outside of the ball, imparting 3,000+ RPM of clockwise side-spin that forces the ball to slide horizontally off the back glass.",
       },
       {
-        label: "Ultrasonics",
-        lead: "Vibrating at 20,000 Hz, ultrasonic diamond tools micro-fracture sapphire without inducing internal stress cracks.®",
-        body: "Direct mechanical shear stress shatters brittle corundum crystals. To carve the complex curvature of the KRONOS case and its integrated lug geometries, our CNC machines employ ultrasonic cavitation. High-frequency acoustic vibrations combined with an aqueous diamond slurry erode the material microscopic layer by microscopic layer, taking over 180 machine hours per case mid-section.",
+        label: "Glass Geometry",
+        lead: "Directing the ball into the side-wall nick neutralizes your opponent's ability to counter-attack.",
+        body: "The definitive objective of the defensive bandeja is to maintain net position by delivering a deep, low-bouncing trajectory into the opponent's corner. When struck with exact backspin, the ball dies against the rear glass and rolls flat along the turf, eliminating any counter-lob opportunities.",
       },
       {
-        label: "Polishing",
-        lead: "Over 200 hours of manual diamond paste polishing are required to restore optical clarity from milky frosted surfaces.®",
-        body: "Directly after CNC shaping, the sapphire case appears milky white and translucent due to micro-fractured surface roughness. Master polishers slowly buff every external facet, inner cavity, and screw bore with progressively finer diamond pastes ranging from 30 microns down to 0.25 microns. The result is pure crystal transparency that allows ambient light to illuminate the openworked movement within.",
+        label: "Racquet Balance",
+        lead: "Customizing your racquet swing weight alters sweet-spot stability during rapid overhead transitions.",
+        body: "A balance point shifted two millimeters toward the head increases smash terminal velocity by up to 8%, while a lower balance point enhances maneuverability for rapid reflex volleys at the net. Our racquet concierge measures and tunes swing weight to each member's shoulder biomechanics.",
       },
     ],
     images: {
-      wide1: { src: "/assets/img/6ac324c6a70dced9.webp", alt: "Corundum Boule Inspection" },
+      wide1: { src: "/assets/img/padel-racket.jpg", alt: "Custom Carbon Racquet" },
       pair: [
-        { src: "/assets/img/c327b6a7eeb961b5.webp", alt: "5-Axis Ultrasonic CNC Chamber" },
-        { src: "/assets/img/973b47bad456a188.webp", alt: "Diamond Polishing Station" },
+        { src: "/assets/img/padel-vibora.jpg", alt: "Ball Slice Impact" },
+        { src: "/assets/img/padel-glasshouse.jpg", alt: "Court Geometry Lines" },
       ],
-      wide2: { src: "/assets/img/78b70384419bd42a.webp", alt: "Finished Sapphire Case" },
+      wide2: { src: "/assets/img/padel-carbon.jpg", alt: "Telemetry Video Analysis" },
     },
   },
   {
-    slug: "global-nikon-meetup",
-    title: "Architectural Hand-Finishing & Anglage",
-    date: "Jun 04, 2025",
-    category: "Finishing",
-    tags: ["Metiers d'Art", "Anglage", "Atelier"],
-    cover: { src: "/assets/img/cdafa7eb4ef9633f.webp", alt: "Master Watchmaker Hand Finisher" },
+    slug: "recovery-science",
+    title: "Recovery Protocols: Infrared Therapy, Cold Plunge & Lactate Flush",
+    date: "Oct 14, 2025",
+    category: "Performance",
+    tags: ["Recovery", "Cryotherapy", "Sports Science"],
+    cover: { src: "/assets/img/padel-recovery.jpg", alt: "Cold Plunge Recovery Suite" },
     heroBlurb:
-      "A deep dive into the ancestral art of inward angle chamfering, black mirror polishing, and traits-tirés on titanium bridges.",
+      "Optimizing rapid physiological return after three-set matches through cold-water immersion, active compression, and cellular infrared resonance.",
     blocks: [
       {
-        label: "Anglage",
-        lead: "No computer or CNC tool in the world can replicate the razor-sharp definition of a hand-carved inward angle.®",
-        body: "Anglage, or bevelling, involves paring down the sharp edges of movement bridges to a smooth 45-degree angle. While modern machines can produce rounded radii, a crisp, sharp interior corner where two bevels meet can only be executed by an artisan wielding a manual steel file and boxwood smoothing stick. A single misstep can ruin a titanium bridge that required forty hours of prior preparation.",
+        label: "Vasoconstriction",
+        lead: "Three minutes of immersion in calibrated 3°C water halves peripheral inflammation and accelerates central nervous system recovery.",
+        body: "Padel involves intense eccentric deceleration—sudden lunges, directional changes, and high-impact overhead landings that cause microscopic muscle damage in the quadriceps and calves. Cold water immersion triggers severe vasoconstriction, shunting blood to vital organs and flushing metabolic waste products out of working muscle beds.",
       },
       {
-        label: "Black Polish",
-        lead: "Known as poli miroir or black polish, this technique reflects light so uniformly that the metal appears pitch black from certain angles.®",
-        body: "Black polishing is reserved for steel balance bridges, column wheels, and screw heads. The artisan rubs the component in figure-eight patterns across a zinc plate treated with fine diamond micron paste. The resulting flatness is measured in fractions of a light wavelength. Viewed straight on, the surface reflects all ambient light like a spotless mirror; tilted slightly, it becomes an infinite void.",
+        label: "Infrared Resonance",
+        lead: "Full-spectrum infrared cedar cabins promote cellular ATP synthesis and micro-circulation.",
+        body: "Following cold immersion, members transition into our 60°C infrared cabins. The far-infrared wavelengths penetrate up to 4 centimeters beneath the skin, dilating blood vessels and delivering oxygen-rich hemoglobin to connective tissues and joint capsules in the rotator cuff.",
       },
       {
-        label: "Dedication",
-        lead: "In an era of mass industrialization, hand finishing preserves the soul and individual handwriting of the watchmaker.",
-        body: "Every KRONOS timepiece takes between 150 and 300 hours of manual decorative work before assembly even begins. Under a 10x microscope or loupe, the collector discovers the subtle nuances of the finisher's hand: the rhythm of the satin strokes, the brilliance of the chamfers, and the warm glow of flame-blued screws. It is this human touch that transforms mechanical kinematics into timeless works of art.",
+        label: "Pneumatic Compression",
+        lead: "Pneumatic dynamic compression boots mimic natural muscle pump action to reduce post-match soreness.",
+        body: "Sequenced compression cycles starting at the feet and progressing toward the heart clear pooled venous blood and lymphatic fluid. Twenty minutes of post-match compression restores joint mobility, leaving players fully primed for back-to-back tournament days.",
       },
     ],
     images: {
-      wide1: { src: "/assets/img/d9c94ac854f6da15.webp", alt: "Hand Beveling Bench" },
+      wide1: { src: "/assets/img/padel-recovery.jpg", alt: "Cold Plunge Suite" },
       pair: [
-        { src: "/assets/img/3a510b93cc7aa10e.webp", alt: "Boxwood Polishing Stick" },
-        { src: "/assets/img/daed11ee27c6a319.webp", alt: "Black Polished Column Wheel" },
+        { src: "/assets/img/padel-lounge.jpg", alt: "Recovery Lounge" },
+        { src: "/assets/img/padel-acoustics.jpg", alt: "Infrared Suite" },
       ],
-      wide2: { src: "/assets/img/4089502a0421ef20.webp", alt: "Finished Movement Bridge" },
+      wide2: { src: "/assets/img/padel-hero.jpg", alt: "Night Sanctuary" },
     },
   },
 ];
@@ -138,10 +138,10 @@ export function otherPosts(slug: string) {
 
 export const blogPage = {
   eyebrow: "©2025",
-  title: "Horological Essays",
+  title: "Padel Journal",
   blurb:
-    "Explore our technical treatises, metallurgical studies, and deep dives into the science and philosophy of modern haute horlogerie.",
-  heroImage: { src: "/assets/img/a92c67265dda481b.webp", alt: "Haute Horlogerie Journal" },
-  section: { label: "Technical Papers", index: "(KH® — 01)", year: "©2025" },
-  moreUpdates: { label: "Recent Treatises", index: "(KH® — 02)", year: "©2024" },
+    "Explore our technical treatises, court architecture studies, and deep dives into the biomechanics and tactical geometry of modern padel.",
+  heroImage: { src: "/assets/img/padel-acoustics.jpg", alt: "Atelier Padel Journal" },
+  section: { label: "Technical Papers", index: "(AP® — 01)", year: "©2025" },
+  moreUpdates: { label: "Recent Dispatches", index: "(AP® — 02)", year: "©2024" },
 } as const;

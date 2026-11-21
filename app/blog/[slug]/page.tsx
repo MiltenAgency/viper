@@ -15,7 +15,7 @@ export function generateStaticParams() {
 export function generateMetadata({ params }: { params: { slug: string } }): Metadata {
   const post = postBySlug(params.slug);
   if (!post) return {};
-  return { title: `${post.title} - KRONOS Horology`, description: post.heroBlurb };
+  return { title: `${post.title} - ATELIER PADEL PRIVÉ`, description: post.heroBlurb };
 }
 
 export default function PostPage({ params }: { params: { slug: string } }) {

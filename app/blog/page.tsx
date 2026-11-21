@@ -6,7 +6,7 @@ import Faq from "@/components/Faq";
 import { blogPage, posts } from "@/lib/content/blog";
 
 export const metadata: Metadata = {
-  title: "Horological Essays - KRONOS Horology",
+  title: "Padel Journal & Technical Papers - ATELIER PADEL PRIVÉ",
   description: blogPage.blurb,
 };
 

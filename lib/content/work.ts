@@ -1,4 +1,4 @@
-/** The four timepiece editions of KRONOS Horology. Slugs and image structure are strictly preserved. */
+/** The four flagship architectural courts of ATELIER PADEL PRIVÉ. */
 
 export type CaseBlock = { label: string; lead: string; body: string };
 
@@ -24,187 +24,187 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "raven-claw",
-    title: "K-1 Tourbillon Black DLC",
+    slug: "glasshouse-stadium",
+    title: "Centre Court Glasshouse",
     year: "2025",
-    tags: ["Tourbillon", "Titanium DLC"],
-    cover: { src: "/assets/img/af40ead459fe7772.webp", alt: "K-1 Tourbillon Timepiece" },
+    tags: ["Panoramic Glass", "Stadium Arena"],
+    cover: { src: "/assets/img/padel-glasshouse.jpg", alt: "Centre Court Glasshouse" },
     cardIntro:
-      "A 42mm flying tourbillon sculpture wire-eroded from Grade 5 titanium with diamond-like carbon coating and sapphire bridge work.",
+      "A 360° panoramic structural glass stadium court with 12mm monolithic acoustic panels and kiln-dried black silica micro-sand turf.",
     heroBlurb:
-      "A 42mm flying tourbillon sculpture wire-eroded from Grade 5 titanium with diamond-like carbon coating and sapphire bridge work.",
+      "A 360° panoramic structural glass stadium court with 12mm monolithic acoustic panels and kiln-dried black silica micro-sand turf.",
     knowMore: {
-      label: "Horological Brief",
+      label: "Architectural Brief",
       heading:
-        "Engineered to defy gravity while maintaining extreme structural minimalism, the K-1 houses a 60-second flying tourbillon cage suspended beneath dual anti-reflective sapphire crystals.®",
+        "Engineered to eliminate visual distortion and acoustic clutter, Centre Court Glasshouse delivers an immersive stadium atmosphere beneath glare-free broadcast lighting.®",
     },
     quote: {
-      heading: "Chronometer Certified by Observatoire de Genève",
-      body: "The K-1 Tourbillon is an uncompromising synthesis of aerospace metallurgy and centuries of high horology traditions. Every titanium bridge is openworked by 5-axis wire erosion and hand-beveled with diamond paste to achieve mirror specular anglage. The flying tourbillon cage weighs a mere 0.28 grams, regulated to chronometer standards across six positions.",
+      heading: "Sanctioned for Premier Padel Exhibition Events",
+      body: "Centre Court Glasshouse is an uncompromising synthesis of structural glass engineering and tour-level sports architecture. Every panoramic pane is wire-tensioned without corner posts to ensure an unobstructed ball rebound from any attack angle. The black silica turf provides high-velocity traction with true vertical bounce.",
     },
     blocks: [
       {
-        label: "Architecture",
-        lead: "Balancing ultra-lightweight structural titanium with the delicate inertia required by a high-frequency flying tourbillon demanded four years of micro-mechanical simulation.",
-        body: "Traditional tourbillon carriages rely on brass or gold alloys, which introduce inertial drag and reduce amplitude over time. For the K-1, our horological engineers developed a bespoke cage crafted entirely from Grade 5 titanium with variable inertia weights. Running at 21,600 vibrations per hour, the escapement operates with an isochronal precision that delivers -1/+2 seconds per day across its full 72-hour power reserve. The black diamond-like carbon (DLC) treatment provides extreme surface hardness of 3,000 Vickers while eliminating glare across the movement.",
+        label: "Acoustic Glass",
+        lead: "Seamless 12mm monolithic structural glass panes eliminate corner vibration and reduce reverberation.",
+        body: "Traditional padel enclosures rely on corner pillar supports that create blind spots and inconsistent ball bounces off the back glass. For Centre Court, our structural engineers designed an uninterrupted 360-degree glass perimeter supported by slim aerospace-grade titanium tension cables. Ball deflection off the back and side glass is mathematically uniform across all four quadrants.",
       },
       {
-        label: "Finishing",
-        lead: "Every single component receives over 140 hours of manual decoration by master finishers in our Le Brassus atelier.",
-        body: "In haute horlogerie, true value lies in the invisible details. The K-1’s mainplate and bridges feature deep internal angles that cannot be achieved by CNC tooling alone—they require hand-carved chamfers executed with boxwood sticks and diamond pastes. The titanium bridges are brushed with traits-tirés straight graining, while the steel pinions and wheels feature concentric circular perlage. The contrast between deep velvet black DLC surfaces and radiant mirror-polished chamfers creates dramatic visual depth.",
+        label: "Black Silica Turf",
+        lead: "Kiln-dried black silica micro-sand creates unprecedented friction consistency and aesthetic minimalism.",
+        body: "Standard blue and green quartz courts suffer from sand clumping and uneven friction that alters ball slide. Our proprietary black silica micro-sand is kiln-dried and vibrated deep into high-density textured fibrillated polyethylene turf fibers. The result is zero sand drift, zero player glare, and instantaneous deceleration for explosive lunges.",
       },
       {
-        label: "Escapement",
-        lead: "A silicon hairspring and titanium balance wheel ensure absolute immunity to magnetic fields up to 15,000 Gauss.",
-        body: "Modern life surrounds timepieces with magnetic flux from laptops, electric vehicles, and smartphones. The K-1 solves this horological vulnerability through a proprietary paramagetic silicon balance spring with terminal curve optimization. Combined with an openworked twin-barrel system that distributes torque evenly across three days, the K-1 Tourbillon represents the pinnacle of modern Swiss chronometry.",
+        label: "Broadcast Lighting",
+        lead: "Vertical indirect LED arrays deliver 1,200 lux with zero upward player glare during high overhead smashes.",
+        body: "Tracking high-trajectory lobs and smash rebounds requires uncompromised visibility. Our custom linear LED arrays run along the upper perimeter fascia, bouncing diffuse light downward without creating blinding hotspots when looking directly upward toward the ceiling.",
       },
     ],
     images: {
-      wide1: { src: "/assets/img/30a196f5485c3943.webp", alt: "Titanium Case Profile" },
+      wide1: { src: "/assets/img/padel-hero.jpg", alt: "Glasshouse Stadium Overview" },
       pair: [
-        { src: "/assets/img/1df8e86e9892276e.webp", alt: "Flying Tourbillon Cage" },
-        { src: "/assets/img/18219ef1a7631c04.webp", alt: "Sapphire Dial Detail" },
+        { src: "/assets/img/padel-acoustics.jpg", alt: "Acoustic Wall Detail" },
+        { src: "/assets/img/padel-racket.jpg", alt: "Match Play Racquet" },
       ],
-      wide2: { src: "/assets/img/d5da4fa895da2f4b.webp", alt: "Micro-Mechanical Bridges" },
-      wide3: { src: "/assets/img/d287344b3cd03c11.webp", alt: "DLC Coated Crown" },
+      wide2: { src: "/assets/img/padel-lounge.jpg", alt: "Courtside Lounge" },
+      wide3: { src: "/assets/img/padel-vibora.jpg", alt: "Optic Lime Ball Impact" },
     },
   },
   {
-    slug: "willow-studio",
-    title: "K-2 Monolith Titanium",
-    year: "2024",
-    tags: ["Chronometer", "Mono-Chassis"],
-    cover: { src: "/assets/img/f50d9c9756c8f409.webp", alt: "K-2 Monolith Titanium Watch" },
+    slug: "carbon-suite",
+    title: "The Carbon Suite",
+    year: "2025",
+    tags: ["Private Telemetry", "Carbon Fiber"],
+    cover: { src: "/assets/img/padel-carbon.jpg", alt: "The Carbon Suite" },
     cardIntro:
-      "An ultra-slim 39mm architectural chronometer featuring micro-rotor automatic winding and hand-beveled titanium plates.",
+      "A private stealth training chamber lined with matte carbon acoustic baffles and 240fps high-velocity optical telemetry cameras.",
     heroBlurb:
-      "An ultra-slim 39mm architectural chronometer featuring micro-rotor automatic winding and hand-beveled titanium plates.",
+      "A private stealth training chamber lined with matte carbon acoustic baffles and 240fps high-velocity optical telemetry cameras.",
     knowMore: {
-      label: "Horological Brief",
+      label: "Performance Brief",
       heading:
-        "The K-2 Monolith is carved from a single monobloc block of titanium, integrating the case, lugs, and bezel into a seamless ergonomic sculpture measuring just 7.8mm in total thickness.®",
+        "Designed for closed-door tactical refinement, The Carbon Suite combines matte carbon sound-dampening panels with instant multi-axis video telemetry.®",
     },
     quote: {
-      heading: "Architectural Purity in Haute Horlogerie",
-      body: "Stripped of all decorative superfluity, the K-2 Monolith lets raw materials speak for themselves. The dial is the movement itself: a multi-layered matrix of satin-brushed titanium bridges, ruthenium gear wheels, and blued steel screws. Powered by our in-house calibre KH-02 with a platinum micro-rotor.",
+      heading: "Optical Telemetry System Calibrated to 240fps",
+      body: "The Carbon Suite strips away every distraction. Acoustic carbon baffles soak up noise, turning every smash into a sharp, isolated report. Integrated high-speed sensor arrays track racquet head speed, ball exit velocity, and strike-point precision to within two millimeters.",
     },
     blocks: [
       {
-        label: "Mono-Chassis",
-        lead: "Eliminating the traditional multi-piece case construction allowed our engineers to achieve 100-meter water resistance in an ultra-thin profile.",
-        body: "Conventional luxury watch cases rely on separate casebacks, bezels, and mid-cases held together with screws and rubber gaskets. The K-2 utilizes an advanced mono-chassis design milled from aerospace Grade 5 titanium. The entire calibre is loaded from the front of the case before the double-domed sapphire crystal is laser-sealed into place. This yields unprecedented structural rigidity, torsion resistance, and wrist ergonomic comfort.",
+        label: "Telemetry",
+        lead: "High-speed camera telemetry tracks ball trajectory, spin RPM, and strike point coordinates.",
+        body: "Twelve high-speed synchronised optical sensors track the ball from racquet impact through glass rebound. Real-time telemetry is calculated and displayed on courtside touch monitors, allowing members to review their bandeja spin mechanics and smash angles frame by frame.",
       },
       {
-        label: "Micro-Rotor",
-        lead: "A bi-directional winding micro-rotor in solid 950 platinum delivers 65 hours of autonomous power without adding movement height.",
-        body: "Central automatic rotors obscure half the movement and increase overall thickness. By recessing a high-density 950 platinum micro-rotor directly flush with the top bridges, the calibre KH-02 maintains an ultra-flat 3.2mm height while offering effortless winding efficiency. Mounted on micro-ceramic ball bearings, the rotor winds silently with minimal friction.",
+        label: "Acoustics",
+        lead: "Perforated carbon fiber wall paneling eliminates echo for laser-focused concentration.",
+        body: "Sound reverberation in standard indoor sports halls causes sensory fatigue and masks crucial acoustic cues like ball spin frequency. The Carbon Suite features micro-perforated carbon acoustic baffles backed by recycled acoustic fleece, achieving a Noise Reduction Coefficient of 0.85.",
       },
       {
-        label: "Ergonomics",
-        lead: "Engineered to fit the curvature of the human wrist with integrated titanium bracelet links and micro-adjustment clasp.",
-        body: "The K-2 Monolith weighs only 68 grams on the wrist, including the full titanium link bracelet. Every link is individually chamfered and satin-brushed by hand. The tapered geometry flows seamlessly from the 39mm case down to an 18mm hidden folding butterfly clasp, creating a bespoke tailored tactile sensation for the wearer.",
+        label: "Private Salon",
+        lead: "Dedicated changing suite, chilled towels, and temperature-controlled racquet lockers.",
+        body: "Members enjoy direct private elevator access to The Carbon Suite, with dedicated personal locker rooms, custom racquet heating cabinets, and direct access to personal tour coaches without passing through public areas.",
       },
     ],
     images: {
-      wide1: { src: "/assets/img/a92c67265dda481b.webp", alt: "Monolith Titanium Case" },
+      wide1: { src: "/assets/img/padel-carbon.jpg", alt: "Carbon Suite Interior" },
       pair: [
-        { src: "/assets/img/f568aa91567fdec6.webp", alt: "Micro-Rotor Mechanism" },
-        { src: "/assets/img/f24e832c9643ff2c.webp", alt: "Integrated Bracelet Links" },
+        { src: "/assets/img/padel-acoustics.jpg", alt: "Carbon Acoustic Panels" },
+        { src: "/assets/img/padel-racket.jpg", alt: "Bespoke Carbon Racquet" },
       ],
-      wide2: { src: "/assets/img/5b35a0a2cfe1f9f4.webp", alt: "Sapphire Caseback View" },
-      wide3: { src: "/assets/img/83b3f5bc11c493dc.webp", alt: "Dial Macro Detail" },
+      wide2: { src: "/assets/img/padel-lounge.jpg", alt: "Private Training Salon" },
+      wide3: { src: "/assets/img/padel-hero.jpg", alt: "Night Perspective" },
     },
   },
   {
-    slug: "maison-law",
-    title: "K-3 Chronograph Tachymeter",
-    year: "2024",
-    tags: ["Chronograph", "Column Wheel"],
-    cover: { src: "/assets/img/f1162a212eb4a43e.webp", alt: "K-3 Chronograph Tachymeter" },
+    slug: "sky-pavilion",
+    title: "The Sky Pavilion",
+    year: "2025",
+    tags: ["Rooftop Arena", "Monaco Skyline"],
+    cover: { src: "/assets/img/padel-sky.jpg", alt: "The Sky Pavilion" },
     cardIntro:
-      "A high-frequency 5Hz mono-pusher split-seconds chronograph with vertical friction clutch and ceramic ball-bearing rotor.",
+      "An open-air rooftop court suspended above the harbour, featuring micro-textured black turf and optic lime floodlighting.",
     heroBlurb:
-      "A high-frequency 5Hz mono-pusher split-seconds chronograph with vertical friction clutch and ceramic ball-bearing rotor.",
+      "An open-air rooftop court suspended above the harbour, featuring micro-textured black turf and optic lime floodlighting.",
     knowMore: {
-      label: "Horological Brief",
+      label: "Atmospheric Brief",
       heading:
-        "Operating at 36,000 vibrations per hour (5Hz), the K-3 Chronograph Tachymeter measures elapsed time down to one-tenth of a second with razor-sharp column wheel tactile engagement.®",
+        "Perched above the Mediterranean coastline, The Sky Pavilion merges panoramic sea vistas with wind-dampened glass engineering.®",
     },
     quote: {
-      heading: "Mastering Split-Second Time Measurement",
-      body: "The split-seconds rattrapante chronograph is widely recognized as one of the three most difficult complications to assemble and regulate in horology. The K-3 pairs this historic complication with a modern vertical clutch system that guarantees zero hand stutter upon chronograph actuation.",
+      heading: "Elevated Court Architecture on the Riviera",
+      body: "Playing at The Sky Pavilion during twilight is an unmatched sensory experience. Wind-deflecting perimeter glass shields the court from coastal gusts while preserving uninterrupted horizon views across the Monaco harbour.",
     },
     blocks: [
       {
-        label: "Kinematics",
-        lead: "A high-frequency 5Hz balance wheel delivers ten discrete beats per second for ultra-precise split-second racing timing.",
-        body: "At 36,000 vibrations per hour, the balance wheel oscillates with intense kinetic energy, requiring specialized synthetic lubrication and an optimized tooth profile on the escape wheel. The mono-pusher coaxially located in the crown commands start, stop, and reset functions through a single solid titanium column wheel with eight polished pillars. An additional pusher at 10 o'clock actuates the split-seconds rattrapante brake.",
+        label: "Coastal Engineering",
+        lead: "Laminated marine-grade glass baffles mitigate wind turbulence across the court envelope.",
+        body: "Rooftop sports courts frequently suffer from unpredictable wind currents that disrupt delicate drop shots and chiquitas. The Sky Pavilion employs aerodynamic glass louvers that direct coastal winds upward over the arena, creating a calm micro-climate on court.",
       },
       {
-        label: "Clutch Design",
-        lead: "A vertical friction clutch eliminates the notorious jump of the chronograph seconds hand common in horizontal coupling.",
-        body: "Traditional horizontal chronograph clutches cause an unsightly twitch when the gears mesh. The K-3 features micro-machined vertical clutch discs with diamond-like friction coating, ensuring immediate, smooth hand progression the instant the pusher is depressed. The minute counter snaps instantaneously at the exact 60-second mark via a jumping heart cam.",
+        label: "Night Lighting",
+        lead: "Slender architectural floodlight pylons produce minimal light pollution while illuminating the black turf.",
+        body: "Engineered in collaboration with architectural lighting designers, the mast-mounted LED projectors deliver sharp optical cutoff angles, focusing all light strictly within the 20x10 meter playing boundary with zero spill into the night sky.",
       },
       {
-        label: "Dial Architecture",
-        lead: "Multi-layered smoked sapphire subdials reveal the intricate ballet of chrono levers and return hammers beneath.",
-        body: "Rather than covering the mechanics with an opaque brass dial, the K-3 uses smoked sapphire discs with laser-etched tachymeter indices filled with Super-LumiNova Grade X1. Collectors can observe the column wheel turning and the rattrapante clamps gripping the split wheel in real time while tracking elapsed speed up to 400 km/h.",
+        label: "Pavilion Terrace",
+        lead: "Open-air spectator terrace with heated lounge seating overlooking the court.",
+        body: "The adjacent terrace features sunken teak seating, an outdoor refreshment bar serving cold-pressed juices and signature cocktails, and ambient audio calibrated to match the rhythm of evening play.",
       },
     ],
     images: {
-      wide1: { src: "/assets/img/93ec508d1d6ae079.webp", alt: "Chronograph Profile" },
+      wide1: { src: "/assets/img/padel-sky.jpg", alt: "Sky Pavilion Rooftop" },
       pair: [
-        { src: "/assets/img/c6b5b93d1af2c5a5.webp", alt: "Column Wheel Mechanism" },
-        { src: "/assets/img/119f9ca70f9186d1.webp", alt: "Split Seconds Pusher" },
+        { src: "/assets/img/padel-hero.jpg", alt: "Twilight Panorama" },
+        { src: "/assets/img/padel-glasshouse.jpg", alt: "Court Surface" },
       ],
-      wide2: { src: "/assets/img/8b049d28ecf0cdd1.webp", alt: "Smoked Sapphire Subdial" },
-      wide3: { src: "/assets/img/d12e2583bb06dc43.webp", alt: "Chronograph Caseback" },
+      wide2: { src: "/assets/img/padel-clubhouse.jpg", alt: "Pavilion Terrace" },
+      wide3: { src: "/assets/img/padel-lounge.jpg", alt: "Rooftop Lounge" },
     },
   },
   {
-    slug: "mystic-meadows",
-    title: "K-4 Openworked Skeleton",
-    year: "2023",
-    tags: ["High Complication", "Sapphire Dial"],
-    cover: { src: "/assets/img/509d69628b943665.webp", alt: "K-4 Openworked Skeleton" },
+    slug: "biomechanics-lab",
+    title: "The Biomechanics Lab",
+    year: "2025",
+    tags: ["Athletic Recovery", "Cryotherapy"],
+    cover: { src: "/assets/img/padel-recovery.jpg", alt: "The Biomechanics Lab" },
     cardIntro:
-      "A fully transparent sapphire case housing a double-balance differential movement with deadbeat seconds and power reserve indicator.",
+      "A private sports medicine sanctuary equipped with stainless steel cold plunges, infrared sauna suites, and lactate recovery telemetry.",
     heroBlurb:
-      "A fully transparent sapphire case housing a double-balance differential movement with deadbeat seconds and power reserve indicator.",
+      "A private sports medicine sanctuary equipped with stainless steel cold plunges, infrared sauna suites, and lactate recovery telemetry.",
     knowMore: {
-      label: "Horological Brief",
+      label: "Recovery Brief",
       heading:
-        "Cased entirely in laboratory-grown synthetic sapphire crystal, the K-4 offers 360-degree visibility into an openworked double-balance calibre with a spherical mechanical differential.®",
+        "Designed to accelerate muscular restoration and central nervous system recovery through contrast hydrotherapy and cellular infrared sauna pods.®",
     },
     quote: {
-      heading: "A Cathedral of Horological Transparency",
-      body: "Synthetic sapphire has a Mohs hardness of 9, second only to diamond. Machining a 43mm multi-faceted case, bezel, and caseback from single sapphire boules requires over 400 hours of ultrasonic milling and diamond-wheel polishing. Inside, two independent balances average their rates through a spherical differential for extreme chronometric stability.",
+      heading: "Clinical Sports Recovery Protocol",
+      body: "Peak athletic performance demands as much reverence for restoration as it does for training. The Biomechanics Lab combines medical-grade cold water immersion with infrared thermal cabins to flush metabolic waste and restore full rotational power in under 45 minutes.",
     },
     blocks: [
       {
-        label: "Differential",
-        lead: "Two independent balances beating in opposition cancel out positional errors through a miniature planetary gear differential.",
-        body: "By employing two balance wheels inclined at 30-degree angles and linking them via a central planetary gear differential, the K-4 averages out rate variations caused by wrist movement and gravitational bias. The differential continuously computes the mathematical mean between both regulating organs, producing an exceptionally stable rate of timekeeping across all six testing positions.",
+        label: "Cold Water Immersion",
+        lead: "Medical-grade 3°C cold plunge tubs with continuous ozone filtration.",
+        body: "Rapid post-match immersion in calibrated 3°C water constricts peripheral blood vessels, mitigates micro-trauma inflammation in shoulder and knee joints, and triggers an invigorating dopamine surge that resets mental clarity.",
       },
       {
-        label: "Deadbeat",
-        lead: "A true deadbeat seconds mechanism steps forward precisely once per second in rhythmic, hypnotic cadence.",
-        body: "While mechanical movements usually sweep smoothly across the dial, the K-4 incorporates a high-complication 'seconde morte' (deadbeat seconds) system. Driven by a dedicated star wheel and tension spring, the central seconds hand leaps instantaneously at each full second mark, combining ancient astronomical precision with modern transparent case aesthetics.",
+        label: "Infrared Resonance",
+        lead: "Full-spectrum infrared cedar cabins that penetrate deep into joint tissue.",
+        body: "Unlike traditional dry saunas that simply heat the ambient air, our full-spectrum infrared emitters resonate with deep muscular tissue, boosting cellular ATP production, increasing vasodilation, and releasing fascia tension accumulated over intense sets.",
       },
       {
-        label: "Sapphire Case",
-        lead: "Optically pure corundum case ground with diamond tools to achieve zero distortion and complete scratch resistance.",
-        body: "The sapphire crystal case allows light to flood the openworked calibre from every angle, highlighting the contrast between brushed titanium bridges, circular-grained wheels, and ruby jewel bearings. Assembled with custom titanium spline screws, the case delivers 50-meter water resistance while remaining impervious to scratches forever.",
+        label: "Physiotherapy",
+        lead: "Resident sports medicine practitioners specializing in rotator cuff and Achilles maintenance.",
+        body: "Members can book pre-match mobility priming or post-match manual therapy with our certified physical therapists, ensuring longevity, explosive lateral mobility, and zero downtime across the competitive season.",
       },
     ],
     images: {
-      wide1: { src: "/assets/img/0482770d700e0f48.webp", alt: "Sapphire Case Assembly" },
+      wide1: { src: "/assets/img/padel-recovery.jpg", alt: "Recovery Suite Plunge" },
       pair: [
-        { src: "/assets/img/3e078403f4daba6c.webp", alt: "Double Balance Differential" },
-        { src: "/assets/img/eb9412368a88a8cc.webp", alt: "Deadbeat Seconds Lever" },
+        { src: "/assets/img/padel-acoustics.jpg", alt: "Infrared Cedar Pod" },
+        { src: "/assets/img/padel-lounge.jpg", alt: "Restoration Suite" },
       ],
-      wide2: { src: "/assets/img/0a34cc9ce1fb661a.webp", alt: "Openworked Mainplate" },
-      wide3: { src: "/assets/img/1938e40e3c1bd79d.webp", alt: "Titanium Spline Screws" },
+      wide2: { src: "/assets/img/padel-carbon.jpg", alt: "Biomechanics Screen" },
+      wide3: { src: "/assets/img/padel-racket.jpg", alt: "Athletic Kit" },
     },
   },
 ];
@@ -220,11 +220,11 @@ export function otherProjects(slug: string) {
 
 export const workPage = {
   eyebrow: "©2025",
-  title: "Calibres",
+  title: "Courts",
   blurb:
-    "From architectural Grade 5 titanium tourbillons to high-frequency split-second chronographs, each timepiece reflects our obsession with micro-mechanical art.",
-  heroImage: { src: "/assets/img/8333813d98953ae0.webp", alt: "KRONOS Atelier Calibre" },
-  section: { label: "Manufacture Calibres", index: "(KH® — 01)", year: "©2025" },
-  previewLabel: "View Calibre",
-  moreWorks: { label: "More Calibres", index: "(KH® — 02)", year: "©2024" },
+    "From 360° panoramic structural glass stadium arenas to private telemetry chambers and rooftop skyline pavilions, explore our architectural sanctuary.",
+  heroImage: { src: "/assets/img/padel-glasshouse.jpg", alt: "Atelier Padel Court Pavilion" },
+  section: { label: "Architectural Courts", index: "(AP® — 01)", year: "©2025" },
+  previewLabel: "View Court",
+  moreWorks: { label: "More Arenas", index: "(AP® — 02)", year: "©2024" },
 } as const;
