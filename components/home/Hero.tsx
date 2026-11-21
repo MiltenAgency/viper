@@ -62,18 +62,17 @@ export default function Hero() {
       <Navbar />
 
       <div className="relative z-20 flex flex-1 flex-col justify-end px-[34px] pb-6 sm:pb-8 lg:pb-10">
-        <motion.span
-          {...enter(1.2)}
-          className="pointer-events-none absolute bottom-[240px] right-[64px] hidden text-paper lg:block"
-        >
-          <Globe size={38} />
-        </motion.span>
-        <motion.p
-          {...enter(1.4)}
-          className="pointer-events-none absolute bottom-[130px] right-[34px] hidden w-[340px] text-[18px] lg:text-[20px] font-semibold leading-6 tracking-[-0.1px] text-paper lg:block"
-        >
-          {hero.blurbLines.join(" ")}
-        </motion.p>
+        <div className="pointer-events-none absolute bottom-6 sm:bottom-8 lg:bottom-10 right-[34px] hidden flex-col items-start gap-4 lg:flex">
+          <motion.span {...enter(1.2)} className="text-paper">
+            <Globe size={38} />
+          </motion.span>
+          <motion.p
+            {...enter(1.4)}
+            className="w-[340px] text-[18px] lg:text-[20px] font-semibold leading-6 tracking-[-0.1px] text-paper"
+          >
+            {hero.blurbLines.join(" ")}
+          </motion.p>
+        </div>
 
         <motion.p {...enter(1)} className="text-[32px] sm:text-[38px] lg:text-[40px] font-bold leading-[34px] tracking-[-1px] text-paper">
           {hero.year}
@@ -89,7 +88,7 @@ export default function Hero() {
 
         <motion.span
           {...enter(2.8)}
-          className="pointer-events-none absolute bottom-[30px] right-[34px] hidden text-paper md:block"
+          className="pointer-events-none absolute bottom-[30px] right-[34px] hidden text-paper md:block lg:hidden"
         >
           <ArrowDown size={31} />
         </motion.span>
