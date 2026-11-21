@@ -1,5 +1,5 @@
 /**
- * Blocks that repeat across routes for KRONOS Horology.
+ * Blocks that repeat across routes for ATELIER PADEL PRIVÉ.
  */
 
 export type FaqItem = { index: string; question: string; answer: string };
@@ -7,60 +7,75 @@ export type FaqItem = { index: string; question: string; answer: string };
 export const faq: FaqItem[] = [
   {
     index: "01",
-    question: "What is the annual production volume of KRONOS?",
+    question: "What is the membership allocation policy of ATELIER PADEL?",
     answer:
-      "To ensure uncompromising quality and hand finishing, KRONOS strictly limits production to 48 pieces per calendar year across all calibre references.",
+      "To preserve absolute court availability, acoustics, and privacy, ATELIER PADEL strictly caps membership at 120 active patron allocations across our Monaco and Geneva sanctuaries.",
   },
   {
     index: "02",
-    question: "How does the allocation and commission process work?",
+    question: "How are private court reservations structured?",
     answer:
-      "Prospective patrons submit an inquiry to our private salon. Once an allocation is confirmed, collectors can customize movement finishes, guilloché dials, and case engravings.",
+      "Members book dedicated 90-minute or 120-minute sessions via the private concierge application. Each booking grants exclusive access to the selected court and its private lounge pavilion.",
   },
   {
     index: "03",
-    question: "What materials are used for the cases and calibres?",
+    question: "What specifications are used for the court turf and glass?",
     answer:
-      "We engineer primarily in aerospace Grade 5 titanium, black diamond-like carbon (DLC), and lab-grown synthetic corundum (sapphire crystal), alongside German silver and platinum micro-rotors.",
+      "Our courts feature 12mm monolithic acoustic glass engineered for zero vibration distortion, combined with kiln-dried black silica sand turf delivering true vertical bounce.",
   },
   {
     index: "04",
-    question: "What chronometer certification does KRONOS achieve?",
+    question: "How does the optical telemetry tracking system work?",
     answer:
-      "Every timepiece undergoes our 1,000-hour manufacture chronometer trial, regulated in six positions across three temperature gradients to within -1/+2 seconds per day.",
+      "Each court integrates high-speed 240fps cameras calibrated along the structural beams. The system records ball exit speed, spin RPM, and heat maps accessible instantly on court-side monitors.",
   },
   {
     index: "05",
-    question: "What is the delivery timeline for a commissioned timepiece?",
+    question: "What racquet concierge services are included?",
     answer:
-      "Due to the 120+ hours of manual hand finishing and bespoke component manufacturing required, lead times typically range from four to eight months from commission agreement.",
+      "Members enjoy access to our custom carbon racquet vault, bespoke weight and balance lead-tuning, and on-demand precision stringing adjusted for court temperature and humidity.",
   },
   {
     index: "06",
-    question: "What warranty and servicing are provided?",
+    question: "What facilities are in the Biomechanics Recovery Lab?",
     answer:
-      "Each timepiece carries our comprehensive 10-year international manufacture warranty, including complimentary complete calibre overhauls and chronometer recalibration.",
+      "The recovery suite includes medical-grade 3°C cold plunge tubs, infrared cellular sauna cabins, pneumatic compression boots, and private sports physiotherapy consultations.",
   },
   {
     index: "07",
-    question: "Can I visit the manufacture in Le Brassus?",
+    question: "Can members invite non-member guests?",
     answer:
-      "Yes. We welcome clients and collectors for private atelier appointments and guided tours of our workshop in the Vallée de Joux by prior arrangement.",
+      "Yes. Each patron allocation includes guest invitations for doubles play. Guests enjoy complete access to private changing suites and club hospitality during reserved sessions.",
   },
   {
     index: "08",
-    question: "Are bespoke complications or unique pieces available?",
+    question: "Are private master coaching sessions available?",
     answer:
-      "Yes, our Master Watchmakers consider select commissions for unique piece (pièce unique) executions and bespoke complications depending on annual atelier capacity.",
+      "Yes. Our resident coaching staff consists of former Premier Padel tour professionals offering tactical biomechanics analysis, match-play strategy, and vibora refinement.",
   },
 ];
 
 export const contactBlock = {
-  badge: "Private Salon",
-  heading: "Commission Allocation",
-  blurb: "Connect with our horological advisors to discuss allocations, bespoke finishes, or schedule a visit to our manufacture in Le Brassus.",
-  points: ["48 Allocations Annually", "10-Year Manufacture Warranty"],
-  cta: { label: "Inquire now", href: "/contact" },
-  fields: { name: "Name*", email: "Email*", message: "Inquiry or Reference*" },
-  submit: "Submit Commission",
+  badge: "Private Sanctuary",
+  heading: "Membership Allocation",
+  blurb:
+    "Inquiries for private patron membership allocations, court reservations, and corporate championship retreats in Monaco and Geneva.",
+  points: [
+    "Strict 120 Patron Membership Cap",
+    "Monaco & Geneva Sanctuary Reciprocity",
+    "24/7 Dedicated Concierge & Racket Vault",
+  ],
+  cta: { label: "Commission Allocation", href: "/contact" },
+  fields: {
+    name: "Full Name*",
+    email: "Email Address*",
+    message: "Handicap / Preferred Location / Allocation Inquiries*...",
+  },
+  submit: "Submit Allocation Request",
+  details: [
+    { label: "Monaco Sanctuary", value: "Quai Antoine 1er, Port Hercule" },
+    { label: "Geneva Sanctuary", value: "Route de Suisse 42, 1290 Versoix" },
+    { label: "Direct Concierge", value: "concierge@atelier-padel.com" },
+    { label: "Member Hours", value: "06:00 – 23:00 Daily" },
+  ],
 } as const;

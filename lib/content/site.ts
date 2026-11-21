@@ -1,43 +1,42 @@
-/** Site-wide chrome: nav, footer, contact details for KRONOS Horology. */
+/** Site-wide chrome: nav, footer, contact details for ATELIER PADEL PRIVÉ. */
 
 export const site = {
-  name: "KRONOS Horology",
-  logo: "/assets/img/kronos-logo.svg",
-  wordmark: "/assets/img/kronos-wordmark.svg",
-  email: "atelier@kronos-horology.ch",
-  copyright: "Copyright © KRONOS Horology SA 2025",
+  name: "ATELIER PADEL PRIVÉ",
+  logo: "/assets/Vector 3.svg",
+  wordmark: "/assets/img/atelier-wordmark.svg",
+  email: "concierge@atelier-padel.com",
+  copyright: "Copyright © ATELIER PADEL PRIVÉ 2025",
 } as const;
 
 export type NavLink = { label: string; index: string; href: string };
 
 export const navLinks: NavLink[] = [
   { label: "Home", index: "01", href: "/" },
-  { label: "Atelier", index: "02", href: "/about" },
-  { label: "Calibres", index: "03", href: "/work" },
-  { label: "Horology", index: "04", href: "/blog" },
+  { label: "The Club", index: "02", href: "/about" },
+  { label: "Courts", index: "03", href: "/work" },
+  { label: "Journal", index: "04", href: "/blog" },
 ];
 
-export const navCta = { label: "Private Atelier", href: "/contact" };
+export const navCta = { label: "Private Allocation", href: "/contact" };
 
 /** The footer links retain the exact page routes. */
 export const footerLinks: NavLink[] = [
   { label: "Home", index: "01 /", href: "/" },
-  { label: "Atelier", index: "02 /", href: "/about" },
-  { label: "Calibres", index: "03 /", href: "/work" },
-  { label: "Horology", index: "04 /", href: "/blog" },
-  { label: "Commissions", index: "05 /", href: "/contact" },
+  { label: "The Club", index: "02 /", href: "/about" },
+  { label: "Courts", index: "03 /", href: "/work" },
+  { label: "Journal", index: "04 /", href: "/blog" },
+  { label: "Membership", index: "05 /", href: "/contact" },
 ];
 
 export const footer = {
-  heading: "Haute Horlogerie®",
-  blurb: "Handcrafted in the Swiss Jura. Inquiries for private atelier appointments, bespoke movement allocations, and manufacture tours.",
-  cta: { label: "Commission Allocation", href: "/contact" },
-  badge: "Chronometer Certifié",
+  heading: "Atelier Privé®",
+  blurb: "Panoramic structural glass arenas, black silica micro-sand turf, bespoke carbon racquets, and private court allocations in Monaco and Geneva.",
+  cta: { label: "Request Membership Allocation", href: "/contact" },
+  badge: "Premier Padel Certified",
   image: {
-    src: "/assets/img/4097b30ad07052c6.webp",
-    alt: "Master Watchmaker at Bench",
+    src: "/assets/img/padel-hero.jpg",
+    alt: "Atelier Padel Court Pavilion",
   },
-  /** Ships in the export as a remote asset; there is no local copy. */
   video: "https://framerusercontent.com/assets/ZxMUyWvzXfOYftOqklzEwzhxyQ.mp4",
   backToTop: "©Back to top",
 } as const;

@@ -1,40 +1,32 @@
-# KRONOS Horology — Independent Haute Horlogerie Suisse (Next.js Rebuild)
+# ATELIER PADEL PRIVÉ — Architectural Glass Courts & Private Sanctuary
 
 ## Register
 
-Ultra-dark void black (`#070707`) and bleach paper white (`#f5f5f5`) with chronometer crimson (`#ff003c`) accents. Architectural titanium, full-bleed micro-photography, and one monumental 260px kinetic wordmark ("KRONOS"). High-contrast typography combining extreme display scale with technical horological precision.
+Ultra-dark void black (`#070707`) and bleach paper white (`#f5f5f5`) with optic volt electric lime (`#E4EF14`) accents. Minimalist architectural glass, acoustic carbon fiber wall panelling, black silica sand turf, and one monumental 260px kinetic wordmark ("ATELIER"). High-contrast typography combining extreme display scale with technical athletic precision.
 
 ## Users
 
-Discerning watch collectors, haute horlogerie connoisseurs, and institutional curators seeking independent mechanical manufacture editions. The site's purpose: showcase proprietary architectural calibres, flying tourbillon escapements, and bespoke allocations with seamless private salon consultation booking.
+Discerning padel competitors, tour professionals, and private patron members seeking uncompromised court architecture. The sanctuary's purpose: showcase proprietary panoramic 360° glass courts, private telemetry suites, custom carbon racquet calibration, and bespoke court allocations with seamless salon reservation booking.
 
 ## Product Purpose
 
-Manufacture showcase for an independent Swiss horology brand: home overview, an atelier heritage page, a calibres index with four flagship timepiece case studies, a horological journal with three technical treatises, and a private salon commission page. 12 routes with full static generation.
+Sanctuary showcase for an independent architectural padel club in Monaco and Geneva: home overview, club heritage & philosophy page, courts index with four flagship court case studies, a technical journal with three tactical & architectural treatises, and a private salon membership reservation page. Full static generation and client-side transitions.
 
 ## Brand Personality
 
-- **Architectural & Avant-Garde:** Grade 5 titanium, synthetic corundum sapphire cases, and openworked flying tourbillons.
-- **Micro-Mechanical Precision:** High-frequency 5Hz chronometry, silicon escapements, and split-seconds column-wheel complications.
-- **Ancestral Handcraft:** Inward-angle anglage, black mirror polishing, and circular perlage executed in the Swiss Jura.
+- **Architectural & Avant-Garde:** 12mm monolithic structural glass, kiln-dried black silica micro-sand turf, and parametric acoustic ceiling baffles.
+- **High-Velocity Precision:** 240fps optical motion telemetry, 1,200-lux anti-glare broadcast illumination, and bespoke carbon racquet stringing dynamics.
+- **Private Sanctuary Luxury:** Limited 120-member patron allocations, private lounge suites, and integrated sports biomechanics recovery pavilions.
 
-## Preserved Routes & Editions
+## Flagship Court Architectures (Courts)
 
-- `/work/raven-claw` → **K-1 Tourbillon Black DLC** (42mm flying tourbillon in Grade 5 titanium with black diamond-like carbon coating).
-- `/work/willow-studio` → **K-2 Monolith Titanium** (39mm ultra-slim architectural chronometer with 950 platinum micro-rotor).
-- `/work/maison-law` → **K-3 Chronograph Tachymeter** (5Hz mono-pusher split-seconds column wheel chronograph).
-- `/work/mystic-meadows` → **K-4 Openworked Skeleton** (Solid synthetic sapphire crystal case with spherical differential double-balance movement).
+- `/work/glasshouse-stadium` → **Centre Court Glasshouse** (360° panoramic structural glass stadium court with broadcast lighting).
+- `/work/carbon-suite` → **The Carbon Suite** (Private indoor court with 240fps telemetry cameras and matte carbon acoustic baffles).
+- `/work/sky-pavilion` → **The Sky Pavilion** (Open-air rooftop court suspended above the harbour with black silica turf).
+- `/work/biomechanics-lab` → **The Biomechanics Lab** (Cryotherapy chambers, cold plunge, and athletic recovery suite).
 
-## Technical Treatises (Blog)
+## Technical Treatises (Journal)
 
-- `/blog/polestar-new-ev` → **The Physics of 5Hz Silicon Escapements**
-- `/blog/audemars-piguet` → **Machining Curved Synthetic Sapphire Cases**
-- `/blog/global-nikon-meetup` → **Architectural Hand-Finishing & Anglage**
-
-## Design Principles
-
-- Kinetic letter-by-letter split heading animation on scroll
-- Responsive type scaling: `.t-hero` 260px desktop → 82px mobile; section headings 110/90px → 56px
-- Edge-to-edge imagery with 20px gutters and floating pill metadata badges
-- Dual-track infinite marquee ticker for certified chronometry partners
-- Full `prefers-reduced-motion` graceful degradation disabling Lenis and CSS keyframe loops
+- `/blog/architectural-arenas` → **The Architectural Evolution of High-Acoustic Padel Arenas**
+- `/blog/bandeja-and-vibora` → **Tactical Masterclass: The Pure Geometry of the Bandeja & Vibora**
+- `/blog/recovery-science` → **Recovery Protocols: Infrared Therapy, Cold Plunge & Lactate Flush**
