@@ -13,7 +13,7 @@ import { aboutPage } from "@/lib/content/about";
 import { contactBlock } from "@/lib/content/shared";
 
 export const metadata: Metadata = {
-  title: "Atelier - KRONOS Horology",
+  title: "The Sanctuary - ATELIER PADEL PRIVÉ",
   description: aboutPage.hero.blurb,
 };
 

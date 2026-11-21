@@ -6,7 +6,7 @@ import Faq from "@/components/Faq";
 import { contactPage } from "@/lib/content/about";
 
 export const metadata: Metadata = {
-  title: "Commissions & Private Salon - KRONOS Horology",
+  title: "Membership Allocation & Private Salon - ATELIER PADEL PRIVÉ",
   description: contactPage.hero.blurb,
 };
 
