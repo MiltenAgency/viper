@@ -61,6 +61,22 @@ body {
 
   @media (min-width: 810px) {
     .t-hero {
+      font-size: clamp(120px, 14vw, 240px);
+      line-height: 0.85;
+      letter-spacing: -0.04em;
+    }
+  }
+
+  @media (min-width: 810px) and (max-height: 750px) {
+    .t-hero {
+      font-size: clamp(96px, 12vw, 150px);
+      line-height: 0.85;
+      letter-spacing: -0.04em;
+    }
+  }
+
+  @media (min-width: 1400px) and (min-height: 850px) {
+    .t-hero {
       font-size: 260px;
       line-height: 200px;
       letter-spacing: -9px;

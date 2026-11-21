@@ -2,7 +2,7 @@
 
 export const site = {
   name: "ATELIER PADEL PRIVÉ",
-  logo: "/assets/Vector 3.svg",
+  logo: "/assets/vector-3.svg",
   wordmark: "/assets/img/atelier-wordmark.svg",
   email: "concierge@atelier-padel.com",
   copyright: "Copyright © ATELIER PADEL PRIVÉ 2025",

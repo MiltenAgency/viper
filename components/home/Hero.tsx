@@ -19,7 +19,7 @@ export default function Hero() {
   const [height, setHeight] = useState(1000);
 
   useEffect(() => {
-    const measure = () => setHeight(ref.current?.offsetHeight ?? 1000);
+    const measure = () => setHeight(ref.current?.offsetHeight ?? window.innerHeight);
     measure();
     window.addEventListener("resize", measure);
     return () => window.removeEventListener("resize", measure);
@@ -46,7 +46,7 @@ export default function Hero() {
     <motion.section
       ref={ref}
       style={reduced ? undefined : { y: panelY }}
-      className="sticky top-0 flex h-[1000px] w-full flex-col overflow-hidden bg-ink"
+      className="sticky top-0 flex h-screen min-h-[580px] max-h-[1000px] w-full flex-col overflow-hidden bg-ink"
     >
       <motion.div
         className="absolute inset-0"
@@ -61,21 +61,24 @@ export default function Hero() {
 
       <Navbar />
 
-      <div className="relative z-20 flex flex-1 flex-col justify-end px-[34px] pb-[34px]">
-        <motion.span {...enter(1.2)} className="pointer-events-none absolute right-[64px] top-[496px] hidden text-paper lg:block">
+      <div className="relative z-20 flex flex-1 flex-col justify-end px-[34px] pb-6 sm:pb-8 lg:pb-10">
+        <motion.span
+          {...enter(1.2)}
+          className="pointer-events-none absolute bottom-[240px] right-[64px] hidden text-paper lg:block"
+        >
           <Globe size={38} />
         </motion.span>
         <motion.p
           {...enter(1.4)}
-          className="pointer-events-none absolute right-[34px] top-[564px] hidden w-[340px] text-[20px] font-semibold leading-6 tracking-[-0.1px] text-paper lg:block"
+          className="pointer-events-none absolute bottom-[130px] right-[34px] hidden w-[340px] text-[18px] lg:text-[20px] font-semibold leading-6 tracking-[-0.1px] text-paper lg:block"
         >
           {hero.blurbLines.join(" ")}
         </motion.p>
 
-        <motion.p {...enter(1)} className="text-[40px] font-bold leading-[34px] tracking-[-1px] text-paper">
+        <motion.p {...enter(1)} className="text-[32px] sm:text-[38px] lg:text-[40px] font-bold leading-[34px] tracking-[-1px] text-paper">
           {hero.year}
         </motion.p>
-        <h1 className="t-hero mt-[30px] flex items-start text-paper">
+        <h1 className="t-hero mt-3 sm:mt-5 flex items-start text-paper">
           <motion.span {...enter(1.2)} className="block">
             {hero.title}
           </motion.span>
