@@ -27,7 +27,12 @@ export default function PartnerTicker({ logos }: { logos: readonly string[] }) {
             style={{ width: PITCH, height: 80 }}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={src} alt="" className="h-20 w-20 object-contain" loading="lazy" />
+            <img
+              src={src}
+              alt=""
+              className="h-10 w-24 object-contain opacity-70 transition-opacity hover:opacity-100"
+              loading="lazy"
+            />
           </span>
         ))}
       </div>

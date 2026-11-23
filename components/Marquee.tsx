@@ -19,7 +19,12 @@ export default function Marquee({ logos }: { logos: string[] }) {
             className="flex h-[182px] w-[268px] shrink-0 items-center justify-center border-r border-mist/65"
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={src} alt="" className="h-[55px] w-[145px] object-contain" loading="lazy" />
+            <img
+              src={src}
+              alt=""
+              className="h-[46px] w-[150px] object-contain opacity-75 transition-opacity hover:opacity-100"
+              loading="lazy"
+            />
           </span>
         ))}
       </div>

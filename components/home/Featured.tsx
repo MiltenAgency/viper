@@ -1,6 +1,6 @@
 import { featured } from "@/lib/content/home";
 import { projects } from "@/lib/content/work";
-import { Separator, SectionHead } from "@/components/Section";
+import { SectionHead } from "@/components/Section";
 import CenterIntro from "@/components/CenterIntro";
 import Reveal from "@/components/motions/Reveal";
 import { ProjectCard } from "@/components/Cards";
@@ -9,8 +9,7 @@ import PartnerTicker from "@/components/PartnerTicker";
 
 export default function Featured() {
   return (
-    <section className="relative z-10 w-full bg-white px-4 pb-[160px] pt-[120px] md:px-10">
-      <Separator />
+    <section className="relative z-10 w-full bg-white px-4 pb-[160px] pt-[60px] md:px-10">
       <SectionHead className="mt-[34px]" {...featured.section} />
 
       <div className="mt-[90px]">
