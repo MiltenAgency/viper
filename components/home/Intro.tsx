@@ -1,15 +1,22 @@
 import Image from "next/image";
 import { intro, marqueeLogos } from "@/lib/content/home";
-import { Separator, Eyebrow } from "@/components/Section";
+import { Eyebrow } from "@/components/Section";
 import PillButton from "@/components/Buttons";
 import Reveal from "@/components/motions/Reveal";
 import Marquee from "@/components/Marquee";
+import { TennisBall } from "@/components/Icons";
 
 export default function Intro() {
   return (
     <>
-      <section className="relative z-10 w-full bg-white px-4 pt-[100px] md:px-10">
-        <Separator />
+      <section className="relative z-10 w-full overflow-hidden bg-white px-4 pt-[50px] md:px-10">
+        {/* Large tennis ball shape entering from the left edge (40% off-screen, 60% visible) */}
+        <Reveal className="pointer-events-none absolute left-0 top-[160px] hidden select-none lg:block">
+          <div className="-translate-x-[40%] text-stone/20 transition-all duration-700 hover:text-stone/35">
+            <TennisBall size={520} strokeWidth={4.5} />
+          </div>
+        </Reveal>
+
         <div className="mt-[50px] grid grid-cols-1 gap-8 lg:grid-cols-[381px_minmax(0,979px)] lg:gap-0">
           <Eyebrow className="lg:pl-[25px]">{intro.label}</Eyebrow>
           <div>
