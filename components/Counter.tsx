@@ -8,7 +8,7 @@ import { useInView, useReducedMotion } from "framer-motion";
  * on entry; the end values here were read off the running original.
  */
 export default function Counter({ to, suffix }: { to: number; suffix: string }) {
-  const ref = useRef<HTMLParagraphElement>(null);
+  const ref = useRef<HTMLDivElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.4 });
   const reduced = useReducedMotion();
   const [value, setValue] = useState(reduced ? to : 0);
@@ -29,12 +29,13 @@ export default function Counter({ to, suffix }: { to: number; suffix: string }) 
   }, [inView, reduced, to]);
 
   return (
-    <p
-      ref={ref}
-      className="w-fit text-center text-[128px] font-semibold leading-[148px] tracking-[-10px] text-black"
-    >
-      {value}
-      {suffix}
-    </p>
+    <div ref={ref} className="flex flex-wrap items-baseline gap-2">
+      <span className="text-[52px] sm:text-[64px] lg:text-[74px] xl:text-[84px] font-semibold leading-none tracking-[-3px] lg:tracking-[-4px] text-charcoal">
+        {value}
+      </span>
+      <span className="text-[20px] sm:text-[24px] lg:text-[28px] font-medium tracking-normal text-ash">
+        {suffix.trim()}
+      </span>
+    </div>
   );
 }
