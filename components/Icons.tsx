@@ -1,3 +1,5 @@
+import { useId } from "react";
+
 /** Inline line icons matching the export's stroke weight and 24px grid. */
 
 type P = { className?: string; size?: number };
@@ -158,6 +160,35 @@ export function XLogo({ className, size = 16 }: P) {
   return (
     <svg width={size} height={size} viewBox="0 0 24 24" fill="currentColor" aria-hidden className={className}>
       <path d="M17.5 3h3l-6.5 7.4L21.7 21h-6l-4.7-6.1L5.6 21h-3l7-8-6.9-10h6.2l4.2 5.6zm-1 16h1.6L7.6 4.7H5.9z" />
+    </svg>
+  );
+}
+
+export function TennisBall({ className, size = 180, strokeWidth = 4.5 }: P & { strokeWidth?: number }) {
+  const clipId = useId();
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 100 100"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={strokeWidth}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+      className={className}
+    >
+      <defs>
+        <clipPath id={clipId}>
+          <circle cx="50" cy="50" r="44" />
+        </clipPath>
+      </defs>
+      <circle cx="50" cy="50" r="44" />
+      <g clipPath={`url(#${clipId})`}>
+        <path d="M 24 14.5 A 44 44 0 0 1 24 85.5" />
+        <path d="M 76 14.5 A 44 44 0 0 0 76 85.5" />
+      </g>
     </svg>
   );
 }
