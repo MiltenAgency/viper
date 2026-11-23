@@ -1,15 +1,14 @@
 import { insights } from "@/lib/content/home";
 import { posts } from "@/lib/content/blog";
-import { Separator, SectionHead } from "@/components/Section";
+import { SectionHead } from "@/components/Section";
 import CenterIntro from "@/components/CenterIntro";
 import { PostCard } from "@/components/Cards";
 import { Pen } from "@/components/Icons";
 
 export default function Insights() {
   return (
-    <section className="relative z-10 w-full bg-white pb-[140px] pt-[120px]">
+    <section className="relative z-10 w-full bg-white pb-[140px] pt-[60px]">
       <div className="px-4 md:px-10">
-        <Separator />
         <SectionHead className="mt-[34px]" {...insights.section} />
       </div>
 

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
-import { Separator, SectionHead } from "@/components/Section";
+import { SectionHead } from "@/components/Section";
 import { ProjectCard } from "@/components/Cards";
 import Faq from "@/components/Faq";
 import { projects, workPage } from "@/lib/content/work";
@@ -20,8 +20,7 @@ export default function WorkPage() {
         image={workPage.heroImage}
       />
 
-      <section className="relative z-10 w-full bg-white px-4 pb-[160px] pt-[120px] md:px-10">
-        <Separator />
+      <section className="relative z-10 w-full bg-white px-4 pb-[160px] pt-[60px] md:px-10">
         <SectionHead className="mt-[34px]" {...workPage.section} />
         <div className="mt-[50px] grid grid-cols-1 gap-x-5 gap-y-[30px] lg:grid-cols-2">
           {projects.map((project, i) => (

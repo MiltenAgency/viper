@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
-import { Separator, SectionHead } from "@/components/Section";
+import { SectionHead } from "@/components/Section";
 import { PostCard } from "@/components/Cards";
 import Faq from "@/components/Faq";
 import { blogPage, posts } from "@/lib/content/blog";
@@ -15,9 +15,8 @@ export default function BlogPage() {
     <>
       <PageHero year={blogPage.eyebrow} title={blogPage.title} blurb={blogPage.blurb} image={blogPage.heroImage} />
 
-      <section className="relative z-10 w-full bg-white pb-[140px] pt-[120px]">
+      <section className="relative z-10 w-full bg-white pb-[140px] pt-[60px]">
         <div className="px-4 md:px-10">
-          <Separator />
           <SectionHead className="mt-[34px]" {...blogPage.section} />
         </div>
         <div className="mt-[50px] grid grid-cols-1 gap-5 px-4 md:grid-cols-3 md:px-10">

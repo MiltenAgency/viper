@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { HeroShell, Letters } from "@/components/PageHero";
-import { Separator, SectionHead, Eyebrow } from "@/components/Section";
+import { SectionHead, Eyebrow } from "@/components/Section";
 import { TextBlock, WideImage, ImagePair } from "@/components/EditorialBlock";
 import { ProjectCard, Tag } from "@/components/Cards";
 import Reveal from "@/components/motions/Reveal";
@@ -42,8 +42,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         </div>
       </HeroShell>
 
-      <section className="relative z-10 w-full bg-white px-4 pt-[100px] md:px-10">
-        <Separator />
+      <section className="relative z-10 w-full bg-white px-4 pt-[50px] md:px-10">
         <div className="mt-[50px] grid grid-cols-1 gap-6 lg:grid-cols-[381px_minmax(0,979px)] lg:gap-0">
           <Eyebrow className="lg:pl-[25px]">{project.knowMore.label}</Eyebrow>
           <div>
@@ -81,8 +80,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
         </div>
       </section>
 
-      <section className="relative z-10 w-full bg-white px-4 py-[120px] md:px-10">
-        <Separator />
+      <section className="relative z-10 w-full bg-white px-4 pb-[120px] pt-[60px] md:px-10">
         <SectionHead className="mt-[34px]" {...workPage.moreWorks} />
         <div className="mt-[50px] grid grid-cols-1 gap-x-5 gap-y-[30px] lg:grid-cols-2">
           {more.map((p, i) => (

@@ -1,12 +1,11 @@
 import { approach } from "@/lib/content/home";
-import { Separator, SectionHead } from "@/components/Section";
+import { SectionHead } from "@/components/Section";
 import PillButton from "@/components/Buttons";
 import Reveal from "@/components/motions/Reveal";
 
 export default function Approach() {
   return (
-    <section className="relative z-10 w-full bg-white px-4 pb-[100px] md:px-10">
-      <Separator />
+    <section className="relative z-10 w-full bg-white px-4 pb-[140px] pt-[60px] md:px-10">
       <SectionHead className="mt-[34px]" {...approach.section} />
 
       <div className="mt-[50px] grid grid-cols-1 gap-5 md:grid-cols-3">

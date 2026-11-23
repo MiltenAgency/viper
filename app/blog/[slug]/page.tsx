@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { HeroShell, Letters } from "@/components/PageHero";
-import { Separator, SectionHead, Eyebrow } from "@/components/Section";
+import { SectionHead, Eyebrow } from "@/components/Section";
 import { TextBlock, WideImage, ImagePair } from "@/components/EditorialBlock";
 import { PostCard } from "@/components/Cards";
 import Reveal from "@/components/motions/Reveal";
@@ -40,8 +40,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
         </div>
       </HeroShell>
 
-      <section className="relative z-10 w-full bg-white px-4 pt-[100px] md:px-10">
-        <Separator />
+      <section className="relative z-10 w-full bg-white px-4 pt-[50px] md:px-10">
         <div className="mx-auto mt-[70px] w-full max-w-[1200px]">
           <Eyebrow className="lg:pl-[25px]">{post.blocks[0].label}</Eyebrow>
           <Reveal className="mt-[30px]">
@@ -67,9 +66,8 @@ export default function PostPage({ params }: { params: { slug: string } }) {
         </div>
       </section>
 
-      <section className="relative z-10 w-full bg-white py-[120px]">
+      <section className="relative z-10 w-full bg-white pb-[120px] pt-[60px]">
         <div className="px-4 md:px-10">
-          <Separator />
           <SectionHead className="mt-[34px]" {...blogPage.moreUpdates} />
         </div>
         <div className="mt-[50px] grid grid-cols-1 gap-5 px-4 md:grid-cols-3 md:px-10">

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { benefits } from "@/lib/content/home";
-import { Separator, SectionHead } from "@/components/Section";
+import { SectionHead } from "@/components/Section";
 import Reveal from "@/components/motions/Reveal";
 import { Star } from "@/components/Icons";
 
@@ -8,8 +8,7 @@ export default function Benefits() {
   const { speed, platform, support } = benefits;
 
   return (
-    <section className="relative z-10 w-full bg-white px-4 py-[120px] md:px-10">
-      <Separator />
+    <section className="relative z-10 w-full bg-white px-4 pb-[120px] pt-[60px] md:px-10">
       <SectionHead className="mt-[34px]" {...benefits.section} />
 
       <div className="mt-[50px] grid grid-cols-1 gap-6 lg:grid-cols-3">

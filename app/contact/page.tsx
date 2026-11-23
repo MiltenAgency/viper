@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import PageHero from "@/components/PageHero";
-import { Separator, SectionHead } from "@/components/Section";
+import { SectionHead } from "@/components/Section";
 import ContactBlock from "@/components/ContactBlock";
 import Faq from "@/components/Faq";
 import { contactPage } from "@/lib/content/about";
@@ -20,8 +20,7 @@ export default function ContactRoute() {
         image={contactPage.hero.image}
       />
 
-      <section className="relative z-10 w-full bg-white px-4 pb-[130px] pt-[120px] md:px-10">
-        <Separator />
+      <section className="relative z-10 w-full bg-white px-4 pb-[130px] pt-[60px] md:px-10">
         <SectionHead className="mt-[34px]" {...contactPage.section} />
         <div className="mt-[100px]">
           <ContactBlock

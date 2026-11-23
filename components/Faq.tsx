@@ -16,7 +16,7 @@ export default function Faq() {
   const reduced = useReducedMotion();
 
   return (
-    <section className="w-full px-4 pb-[120px] md:px-10">
+    <section className="w-full px-4 pb-[140px] md:px-10">
       <Separator />
       <div className="mt-[50px] grid grid-cols-1 gap-8 lg:grid-cols-[462px_minmax(0,1fr)] lg:gap-0">
         <Eyebrow>FAQ</Eyebrow>

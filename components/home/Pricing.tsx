@@ -4,7 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import clsx from "clsx";
 import { pricing } from "@/lib/content/home";
-import { Separator, Eyebrow } from "@/components/Section";
+import { Eyebrow } from "@/components/Section";
 import CenterIntro from "@/components/CenterIntro";
 import PillButton from "@/components/Buttons";
 import Reveal from "@/components/motions/Reveal";
@@ -19,8 +19,7 @@ export default function Pricing() {
   const [annual, setAnnual] = useState(true);
 
   return (
-    <section className="relative z-10 w-full bg-white px-4 pb-[120px] pt-[100px] md:px-10">
-      <Separator />
+    <section className="relative z-10 w-full bg-white px-4 pb-[120px] pt-[50px] md:px-10">
       <div className="mt-[34px] grid grid-cols-1 items-center gap-6 sm:grid-cols-3">
         <Eyebrow>{pricing.section.label}</Eyebrow>
         <div className="flex items-center justify-center gap-3">

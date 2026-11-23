@@ -8,7 +8,7 @@ import { Star } from "@/components/Icons";
 
 export default function FramerExpert() {
   return (
-    <section className="relative z-10 w-full bg-sand px-4 pb-[120px] md:px-10">
+    <section className="relative z-10 w-full bg-sand px-4 pb-[140px] md:px-10">
       <Separator />
       <SectionHead className="mt-[40px]" {...framerExpert.section} />
 

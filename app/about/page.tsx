@@ -8,7 +8,7 @@ import Badge from "@/components/Badge";
 import StickyImage from "@/components/StickyImage";
 import Faq from "@/components/Faq";
 import ContactBlock from "@/components/ContactBlock";
-import { Layers, Plus } from "@/components/Icons";
+import { Globe, Layers, Plus } from "@/components/Icons";
 import { aboutPage } from "@/lib/content/about";
 import { contactBlock } from "@/lib/content/shared";
 
@@ -29,8 +29,7 @@ export default function AboutPage() {
         image={aboutPage.hero.image}
       />
 
-      <section className="relative z-10 w-full bg-white px-4 pb-[120px] pt-[100px] md:px-10">
-        <Separator />
+      <section className="relative z-10 w-full bg-white px-4 pb-[120px] pt-[50px] md:px-10">
         <div className="mt-[50px] grid grid-cols-1 gap-8 lg:grid-cols-[381px_minmax(0,979px)] lg:gap-0">
           <Eyebrow className="lg:pl-[25px]">{passion.label}</Eyebrow>
           <div>
@@ -57,7 +56,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="relative z-10 w-full bg-sand px-4 pb-[120px] md:px-10">
+      <section className="relative z-10 w-full bg-sand px-4 pb-[140px] md:px-10">
         <Separator />
         <SectionHead className="mt-[40px]" {...awards.section} />
         <div className="mt-20 grid grid-cols-1 gap-12 lg:grid-cols-[600px_minmax(0,760px)] lg:gap-0">
@@ -93,10 +92,16 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <StickyImage src={awards.image.src} alt={awards.image.alt} />
+      <StickyImage
+        src={awards.image.src}
+        alt={awards.image.alt}
+        year="©2025 • (AP® — 03)"
+        title="Skyline Pavilion"
+        blurb="Elevated court architecture engineered to harmonize dramatic Riviera topography with tour-level play."
+        icon={<Globe size={36} />}
+      />
 
-      <section className="relative z-10 w-full bg-white px-4 py-[120px] md:px-10">
-        <Separator />
+      <section className="relative z-10 w-full bg-white px-4 pb-[120px] pt-[60px] md:px-10">
         <SectionHead className="mt-[34px]" {...practice.section} />
         <div className="mt-[80px] grid grid-cols-1 gap-12 lg:grid-cols-[544px_minmax(0,816px)] lg:gap-0">
           <div className="flex flex-col items-start">
@@ -121,8 +126,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="relative z-10 w-full bg-white px-4 pt-[10px] md:px-10">
-        <Separator />
+      <section className="relative z-10 w-full bg-white px-4 pb-[120px] pt-[10px] md:px-10">
         <SectionHead className="mt-[34px]" {...stack.section} />
         <div className="mt-[50px] flex flex-col items-center text-center">
           <Badge icon={<Layers size={20} />}>{stack.badge}</Badge>
@@ -158,14 +162,20 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <div className="relative z-10 bg-white pt-[120px]">
+      <div className="relative z-10 bg-white pt-[60px]">
         <Faq />
       </div>
 
-      <StickyImage src={aboutPage.faqImage.src} alt={aboutPage.faqImage.alt} />
+      <StickyImage
+        src={aboutPage.faqImage.src}
+        alt={aboutPage.faqImage.alt}
+        year="©2025 • (AP® — 06)"
+        title="Pure Monolith"
+        blurb="Postless 12mm acoustic glass calibrated for zero dead-zones and 100% predictable rebound."
+        icon={<Layers size={32} />}
+      />
 
-      <section className="relative z-10 w-full bg-white px-4 pb-[140px] pt-[120px] md:px-10">
-        <Separator />
+      <section className="relative z-10 w-full bg-white px-4 pb-[140px] pt-[60px] md:px-10">
         <SectionHead className="mt-[34px]" {...aboutPage.contactSection} />
         <div className="mt-[100px]">
           <ContactBlock heading={contactBlock.heading} blurb={contactBlock.blurb} points={contactBlock.points} />

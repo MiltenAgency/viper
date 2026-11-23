@@ -14,7 +14,7 @@ export default function Stats() {
         </Reveal>
       </div>
 
-      <div className="mt-[110px] grid grid-cols-1 gap-x-[150px] gap-y-16 md:grid-cols-3">
+      <div className="mt-[110px] grid grid-cols-1 gap-x-10 gap-y-16 md:grid-cols-3 lg:gap-x-16 xl:gap-x-20">
         {stats.items.map((item) => (
           <Reveal key={item.title}>
             <Counter to={item.value} suffix={item.suffix} />
