@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { testimonials } from "@/lib/content/home";
-import { Separator, SectionHead } from "@/components/Section";
+import { SectionHead } from "@/components/Section";
 import CenterIntro from "@/components/CenterIntro";
 import Reveal from "@/components/motions/Reveal";
 import { Quotes, Star, XLogo } from "@/components/Icons";
@@ -8,7 +8,6 @@ import { Quotes, Star, XLogo } from "@/components/Icons";
 export default function Testimonials() {
   return (
     <section className="relative z-10 w-full bg-white px-4 pb-[110px] pt-[10px] md:px-10">
-      <Separator />
       <SectionHead className="mt-[34px]" {...testimonials.section} />
 
       <div className="mt-[90px]">

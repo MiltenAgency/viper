@@ -36,16 +36,22 @@ export const intro = {
 } as const;
 
 export const marqueeLogos = [
-  "/assets/img/e32e8affbd5a3066.webp",
-  "/assets/img/8ca3bb13c19b067e.webp",
-  "/assets/img/89ef33b9586789fe.webp",
-  "/assets/img/964dfe6f0ea6a1d2.webp",
-  "/assets/img/42d4dc22c8be2ebb.webp",
-  "https://framerusercontent.com/images/kWKTtT0sHaBtqXAjToYJt0DkM.png",
-  "https://framerusercontent.com/images/rKFa1Bkgx8162McJrXxfeP8muc.png",
-  "https://framerusercontent.com/images/gFzjC9xriL7Nmw52LjVDFnwqJKU.png",
-  "https://framerusercontent.com/images/9Xrne4wsuizTaogvAppcUC0.png",
-  "https://framerusercontent.com/images/dnfHacnCb11wzIO3c6voJEK1Sc.png",
+  "/assets/logos/babolat.svg",
+  "/assets/logos/wilson.svg",
+  "/assets/logos/head.svg",
+  "/assets/logos/nox.svg",
+  "/assets/logos/fip.svg",
+  "/assets/logos/adidas.svg",
+  "/assets/logos/asics.svg",
+  "/assets/logos/technogym.svg",
+  "/assets/logos/saint-gobain.svg",
+  "/assets/logos/dunlop.svg",
+  "/assets/logos/lacoste.svg",
+  "/assets/logos/rolex.svg",
+  "/assets/logos/tag-heuer.svg",
+  "/assets/logos/prince.svg",
+  "/assets/logos/yonex.svg",
+  "/assets/logos/monte-carlo.svg",
 ];
 
 export interface ApproachStep {
@@ -56,7 +62,7 @@ export interface ApproachStep {
 }
 
 export const approach = {
-  section: { label: "Court Engineering", index: "(AP® — 02)", year: "©2025" },
+  section: { label: "Court Engineering", index: "(AP® — 03)", year: "©2025" },
   steps: [
     {
       number: "01",
@@ -85,7 +91,7 @@ export const approach = {
 } as const;
 
 export const featured = {
-  section: { label: "Architectural Courts", index: "(AP® — 03)", year: "©2025" },
+  section: { label: "Architectural Courts", index: "(AP® — 02)", year: "©2025" },
   badge: "Courts",
   heading: "Flagship Arenas®",
   blurb:
@@ -93,14 +99,16 @@ export const featured = {
   cta: { label: "View all courts", href: "/work" },
   partnersLabel: "Technical court partners & certified equipment manufactures:",
   partners: [
-    "/assets/img/ca3d81daff2fde45.webp",
-    "/assets/img/8ca3bb13c19b067e.webp",
-    "/assets/img/964dfe6f0ea6a1d2.webp",
-    "/assets/img/42d4dc22c8be2ebb.webp",
-    "https://framerusercontent.com/images/kWKTtT0sHaBtqXAjToYJt0DkM.png",
-    "https://framerusercontent.com/images/rKFa1Bkgx8162McJrXxfeP8muc.png",
-    "https://framerusercontent.com/images/9Xrne4wsuizTaogvAppcUC0.png",
-    "https://framerusercontent.com/images/dnfHacnCb11wzIO3c6voJEK1Sc.png",
+    "/assets/logos/fip.svg",
+    "/assets/logos/saint-gobain.svg",
+    "/assets/logos/technogym.svg",
+    "/assets/logos/nox.svg",
+    "/assets/logos/babolat.svg",
+    "/assets/logos/wilson.svg",
+    "/assets/logos/head.svg",
+    "/assets/logos/dunlop.svg",
+    "/assets/logos/asics.svg",
+    "/assets/logos/rolex.svg",
   ],
 } as const;
 
@@ -116,7 +124,7 @@ export const stats = {
 } as const;
 
 export const services = {
-  section: { label: "Sanctuary Disciplines", index: "(AP® — 05)", year: "©2025" },
+  section: { label: "Sanctuary Disciplines", index: "(AP® — 04)", year: "©2025" },
   heading: "Member Services®",
   blurb: "From bespoke carbon racquet weight-calibration to private master coaching, we elevate every aspect of your padel performance.",
   points: ["Private Master Coaching", "Racquet Lead-Weight Tuning"],
@@ -179,7 +187,7 @@ export const benefits = {
 } as const;
 
 export const testimonials = {
-  section: { label: "Patron Testimonials", index: "(AP® — 07)", year: "©2025" },
+  section: { label: "Patron Testimonials", index: "(AP® — 08)", year: "©2025" },
   badge: "Patrons",
   heading: "Trusted By Champions.",
   blurb:
@@ -188,44 +196,51 @@ export const testimonials = {
   items: [
     {
       body: "Centre Court Glasshouse is the finest padel court on earth. The black silica turf gives true, uncompromised ball bite, and the acoustic clarity of the glass is unmatched.",
-      name: "Alejandro Ruiz",
+      name: "Carlos Beltrán",
       role: "Premier Padel Competitor",
       company: "Monaco Tour Team",
-      avatar: { src: "/assets/img/838e29199fb7e503.webp", alt: "Alejandro Ruiz" },
+      avatar: { src: "/assets/img/avatars/avatar-1.jpg", alt: "Carlos Beltrán" },
     },
     {
       body: "Playing at Atelier Padel Privé feels like stepping into a private cathedral of high-velocity sport. The telemetry insights in The Carbon Suite revolutionized my defensive glass game.",
-      name: "Marcus Sterling",
-      role: "Founding Patron",
-      company: "Geneva Racquet Syndicate",
-      avatar: { src: "/assets/img/9f76a4d14cf53ff6.webp", alt: "Marcus Sterling" },
+      name: "Camilla Rossi",
+      role: "Architectural Director",
+      company: "Studio Rossi Milano",
+      avatar: { src: "/assets/img/avatars/avatar-2.jpg", alt: "Camilla Rossi" },
     },
     {
       body: "The team tuned my 24K carbon racquets to perfection. From customized handle balance to temperature-matched stringing, the level of bespoke service is exceptional.",
-      name: "Hélène De Vries",
-      role: "Architect & Member",
-      company: "De Vries Padel Zurich",
-      avatar: { src: "/assets/img/46900bc9f0919c91.webp", alt: "Hélène De Vries" },
+      name: "Julian Vance",
+      role: "Founding Resident Patron",
+      company: "Vance Capital Geneva",
+      avatar: { src: "/assets/img/avatars/avatar-3.jpg", alt: "Julian Vance" },
     },
     {
       body: "Having private court access paired with the cold plunge and infrared recovery suite makes this club an irreplaceable part of my athletic routine.",
-      name: "David Laurent",
-      role: "Senior Consultant",
-      company: "Alpine Athletic Guild",
-      avatar: { src: "/assets/img/b97be510e61141af.webp", alt: "David Laurent" },
+      name: "Elena Rostova",
+      role: "Sports Biomechanist & Member",
+      company: "Alpine Recovery Institute",
+      avatar: { src: "/assets/img/avatars/avatar-4.jpg", alt: "Elena Rostova" },
     },
     {
       body: "The rooftop Sky Pavilion during sunset in Monaco is breathtaking. World-class padel with a skyline backdrop that cannot be replicated anywhere in Europe.",
-      name: "Thomas Lindqvist",
-      role: "Sports Journalist & Member",
-      company: "Nordic Padel Review",
-      avatar: { src: "/assets/img/a71b72ffd2a494b7.webp", alt: "Thomas Lindqvist" },
+      name: "Maximilian von Berg",
+      role: "Founding Patron Allocation",
+      company: "Zurich Private Office",
+      avatar: { src: "/assets/img/avatars/avatar-5.jpg", alt: "Maximilian von Berg" },
+    },
+    {
+      body: "The 12mm monolithic glass rebound dynamics and zero-shadow 1,200 lux illumination set an entirely new benchmark for private stadium architecture.",
+      name: "Sophie Delacroix",
+      role: "National Tour Champion",
+      company: "Riviera Athletic Guild",
+      avatar: { src: "/assets/img/avatars/avatar-6.jpg", alt: "Sophie Delacroix" },
     },
   ],
 } as const;
 
 export const photography = {
-  section: { label: "Court Details", index: "(AP® — 08)", year: "©2025" },
+  section: { label: "Court Details", index: "(AP® — 07)", year: "©2025" },
   badge: "Macrophotography",
   heading: "Every Millimeter Calibrated.",
   blurb:
@@ -234,7 +249,7 @@ export const photography = {
 } as const;
 
 export const framerExpert = {
-  section: { label: "Resident Masters", index: "(AP® — 09)", year: "©2025" },
+  section: { label: "Resident Masters", index: "(AP® — 05)", year: "©2025" },
   image: { src: "/assets/img/padel-coach.jpg", alt: "Master Coach" },
   badge: "Tour Pedigree",
   heading: "Tour-Level Coaching Pedigree.",
@@ -245,7 +260,7 @@ export const framerExpert = {
 } as const;
 
 export const pricing = {
-  section: { label: "Membership Tiers", year: "©2025" },
+  section: { label: "Membership Tiers", index: "(AP® — 09)", year: "©2025" },
   toggle: { monthly: "Resident Patron", annual: "Founding Patron" },
   badge: "Allocations",
   heading: "Membership Allocations.",
@@ -295,7 +310,7 @@ export const pricing = {
 } as const;
 
 export const insights = {
-  section: { label: "Padel Journal", index: "(AP® — 12)", year: "©2025" },
+  section: { label: "Padel Journal", index: "(AP® — 10)", year: "©2025" },
   badge: "Journal",
   heading: "Latest Padel Insights.",
   blurb:
@@ -304,4 +319,4 @@ export const insights = {
   image: { src: "/assets/img/padel-night-arena.jpg", alt: "Monaco Night Arena" },
 } as const;
 
-export const contactSection = { label: "Request A Membership Allocation", index: "(AP® — 13)", year: "©2025" } as const;
+export const contactSection = { label: "Request A Membership Allocation", index: "(AP® — 11)", year: "©2025" } as const;
