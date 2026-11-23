@@ -6,6 +6,7 @@ import { StaggeredColumnsPreloader } from "@/components/StaggeredColumnsPreloade
 import { AgentationDevtools } from "./agentation-devtools";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://atelier-padel.com"),
   title: "ATELIER PADEL PRIVÉ — Architectural Glass Courts & Private Sanctuary",
   description:
     "An ultra-exclusive architectural sanctuary of 360° panoramic structural glass courts, black silica sand turf, bespoke carbon racquets, and private court salon allocations in Monaco and Geneva.",
@@ -17,6 +18,16 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
   openGraph: {
+    title: "ATELIER PADEL PRIVÉ — Architectural Glass Courts & Private Sanctuary",
+    description:
+      "An ultra-exclusive architectural sanctuary of 360° panoramic structural glass courts, black silica sand turf, bespoke carbon racquets, and private court salon allocations in Monaco and Geneva.",
+    url: "https://atelier-padel.com",
+    siteName: "ATELIER PADEL PRIVÉ",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
     title: "ATELIER PADEL PRIVÉ — Architectural Glass Courts & Private Sanctuary",
     description:
       "An ultra-exclusive architectural sanctuary of 360° panoramic structural glass courts, black silica sand turf, bespoke carbon racquets, and private court salon allocations in Monaco and Geneva.",
