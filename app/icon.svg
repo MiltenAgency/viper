@@ -1,6 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
   <rect width="512" height="512" rx="128" fill="#070707"/>
-  <g transform="translate(77.2, 172.2)">
-    <path d="M255.279 68.4734C256.455 35.3148 0 10.5114 0 10.5114C0 10.5114 337.249 -18.3146 345.804 19.5055C354.359 57.3255 357.526 91.8249 331.924 123.937C306.322 156.049 251.785 185.841 193.119 172.905C134.453 159.969 183.463 50.4852 183.463 50.4852C183.463 50.4852 200.965 120.483 217.863 114.943C234.761 109.403 254.104 101.632 255.279 68.4734Z" fill="#E4EF14"/>
+  <defs>
+    <clipPath id="tab-ball-clip">
+      <circle cx="256" cy="256" r="180" />
+    </clipPath>
+  </defs>
+  <circle cx="256" cy="256" r="180" stroke="#FFFFFF" stroke-width="32" />
+  <g clip-path="url(#tab-ball-clip)">
+    <path d="M 150 110.5 A 180 180 0 0 1 150 401.5" stroke="#FFFFFF" stroke-width="32" stroke-linecap="round" />
+    <path d="M 362 110.5 A 180 180 0 0 0 362 401.5" stroke="#FFFFFF" stroke-width="32" stroke-linecap="round" />
   </g>
 </svg>
